@@ -1,0 +1,29 @@
+// Variables
+// Welcome UI - Tabs
+
+#ui-tabs {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#ui-tabs .nav-item {
+  font-family: 'gt-eesti-regular';
+  font-weight: 600;
+  color: $ui_back;
+}
+#ui-tabs .nav-tabs {
+  border-bottom: transparent;
+}
+#ui-tabs .nav-tabs .nav-link {
+  border: transparent;
+}
+#ui-tabs .nav-tabs .nav-link.active {
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid $ui_blue;
+}
+#ui-tabs .tab-content {
+  margin-top: $md-margintop;
+}

@@ -1,0 +1,394 @@
+// Variables
+// Welcome UI - Tables
+
+.view-header {
+  border-bottom: 1px solid $ui_lightgray;
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 15px 0;
+}
+.view-header .btn.btn-group {
+  display: contents;
+}
+.view-header .ui-btn:hover {
+  color: $ui_white;
+}
+.dropdown-menu {
+  padding: 0;
+}
+
+/* Table Header */
+
+table .ui-table-row {
+  background-color: $ui_white;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.ui-toptable {
+  background-color: $ui_middlegray;
+  padding: 12px 20px;
+  border: 1px solid $ui_middlegray;
+  -webkit-border-top-left-radius: $ui-radius;
+  -webkit-border-top-right-radius: $ui-radius;
+  -moz-border-radius-topleft: $ui-radius;
+  -moz-border-radius-topright: $ui-radius;
+  border-top-left-radius: $ui-radius;
+  border-top-right-radius: $ui-radius;
+}
+.ui-toptable .ui-btn {
+  margin-bottom: 0 !important;
+}
+
+/* Table Cells  */
+.ui-table thead {
+  background-color: $ui_middlegray;
+  border: 1px solid $ui_middlegray;
+  font-family: 'hk-grotesk-semibold';
+}
+.ui-table thead th {
+  vertical-align: top;
+  font-size: 16px;
+}
+.ui-table td {
+  padding: 26px 20px;
+  font-family: 'hk-grotesk-regular';
+}
+.ui-table td a {
+  font-family: 'hk-grotesk-semibold';
+}
+.ui-table .ui-sort {
+  color: $ui_back;
+  padding-left: 24px;
+  background-image: image-url('icons/icn-sort.svg');
+  background-repeat: no-repeat;
+  background-size: 8px;
+  background-position: left 10px top 6px;
+}
+
+/* Tr */
+.ui-table table tbody tr:hover {
+  background-color: $ui_fill;
+}
+
+.ui-toptable .col-lg-6:first-child {
+  align-self: flex-end;
+}
+
+/* =========================== */
+
+.ui-app-area .dropdown-toggle::after {
+  display: none;
+}
+.ui-app-area .dropleft .dropdown-toggle::before {
+  display: none;
+}
+.ui-app-area .dropdown .btn-group {
+  display: block;
+}
+.ui-app-area .dropdown .btn-group .btn {
+  width: 100%;
+}
+.ui-app-area .dropdown .btn-group .btn-outline-primary,
+.ui-app-area .dropdown .btn-group .btn-outline-danger {
+  color: $ui_back;
+  border-color: transparent;
+}
+.ui-app-area .dropdown .btn.dropdown-toggle {
+  padding: 4px;
+}
+.ui-app-area .ui-table-row .dropdown.dropleft {
+  display: none;
+}
+.ui-app-area .ui-table-row:hover .dropdown.dropleft  {
+  display: block;
+}
+.ui-app-area .ui-menu-dots {
+  width: 40px;
+}
+.ui-app-area table .ui-menu-dots {
+  width: 20px;
+  height: 100px;
+  text-align: right;
+}
+.ui-app-area table .dropdown-menu {
+  padding: 0;
+}
+.ui-app-area .card.card-body {
+  margin-bottom: $md-marginbottom;
+  padding: 0;
+  background-color: transparent;
+  border: transparent;
+}
+.site-plan .card-body {
+  padding: 0;
+}
+
+/* =========================== */
+
+.ui-app-area .ui-col {
+  display: inline-block;
+  float: left;
+  position: relative;
+  margin-bottom: $sm-marginbottom;
+}
+.ui-app-area .width-drop {
+  padding-right: 50px;
+}
+.ui-app-area .ui-col.dots-drop {
+  display: flex;
+  position: absolute;
+  width: 40px;
+  height: 100%;
+  right: 0;
+  top: 0;
+}
+.ui-app-area .ui-col.dots-drop .dropdown {
+  align-self: center;
+  margin: 0 auto;
+}
+.ui-app-area .ui-col.dots-drop .dropdown .dropdown-menu {
+  padding: 0;
+  border-radius: 8px;
+}
+
+.ui-app-area .list-group-item {
+  border-radius: 0 !important;
+  padding: 1.50rem 1.25rem;
+}
+.ui-app-area .list-group-item:hover {
+  background-color: $ui_fill;
+}
+.ui-app-area .parcel-main-info .list-group-item {
+  padding: 0.50rem 1.25rem;
+}
+
+/* =========================== */
+
+.parcel-main-info {
+  margin-bottom: $md-marginbottom;
+}
+.parcel-main-info .card {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+}
+.parcel-main-info .card .card-header {
+  margin-bottom: 0;
+  background-color: transparent;
+  border-bottom: none;
+  padding: 0.75rem 0;
+}
+.parcel-main-info .list-group {
+  display: block;
+}
+.parcel-main-info .card .list-group-item {
+  background-color: transparent;
+  border: none;
+  width: 33%;
+  padding-left: 0 !important;
+  display: inline-block !important;
+}
+.parcel-main-info.site-plan .img-fluid {
+  max-width: 50px;
+  height: auto;
+  text-align: left;
+  border: 1px solid #007bff;
+}
+
+/* =========================== */
+
+.pagination {
+  align-items: center;
+  justify-content: center;
+}
+.pagination .page-link {
+  padding: 10px;
+  margin-left: 0;
+  line-height: 1.25;
+  color: $ui_blue;
+  background-color: transparent;
+  border: none;
+  border-radius: $ui-radius;
+  font-size: $ui_font_small;
+}
+.pagination .page-item.active .page-link {
+  z-index: 3;
+  color: $ui_white;
+  background-color: $ui_blue;
+  border-color: transparent;
+}
+.pagination .page-item.disabled .page-link {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+/* =========================== */
+
+#add-characteristic .card.card-body {
+  background-color: $ui_white;
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.ui-toolt, .ui-toolt-status {
+  position: relative;
+  display: inline-block;
+}
+.ui-toolt:hover {
+  cursor: pointer;
+}
+.ui-toolt .tooltiptext {
+  visibility: hidden;
+  width: 270px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 10px;
+
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -135px;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+.ui-toolt-status .tooltiptext {
+  visibility: hidden;
+  width: 64px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: .25rem;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -30px;
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+.ui-toolt:hover .tooltiptext, .ui-toolt-status:hover .tooltiptext {
+  visibility: visible;
+}
+.ui-toolt .ui-toolt-info {
+  background-color: $ui_white;
+  border: 1px solid $ui_back;
+  padding: 2px 6px 0px;
+  border-radius: 50%;
+  color: $ui_back;
+  font-size: 8px;
+  display: block;
+  top: -2px;
+  position: relative;
+  font-family: 'gt-eesti-bold';
+}
+.ui-toolt .tooltiptext:after {
+  content: '';
+  position: absolute;
+  left: 115px;
+  top: 50px;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 15px solid #000;
+  clear: both;
+}
+.ui-toolt-status .tooltiptext:after {
+  content: '';
+  position: absolute;
+  left: 11px;
+  top: 24px;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 10px solid #000;
+  clear: both;
+}
+
+/* =========================== */
+
+.ui-status a.btn.btn-success {
+  text-indent: -9999px;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: $ui_green;
+  border: 1px solid $ui_green;
+}
+.ui-status .btn.btn-danger {
+  text-indent: -9999px;
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: $ui_darkgray;
+  border: 1px solid $ui_darkgray;
+}
+
+/* =========================== */
+
+.parcel-real-estate .list-group-item {
+  width: 100% !important;
+}
+
+/* =========================== */
+
+#parcel_form .form-row {
+  margin-bottom: 15px;
+}
+
+/* =========================== */
+
+.ui-login {
+  max-width: 480px;
+  border: 1px solid $ui_darkgray;
+  border-radius: $ui-radius;
+  margin-top: $lg-margintop;
+}
+.ui-login .btn.btn-outline-primary {
+  background-color: $ui_blue;
+  color: $ui_white
+}
+.ui-login a {
+  display: block;
+  font-size: $ui_font_small;
+  margin-top: $sm-margintop;
+}
+
+/* =========================== */
+
+.ui-app-area .btn.btn-success {
+  background-color: $ui_blue;
+  color: $ui_white;
+}
+.ui-edit-block {
+  border: $ui_darkgray;
+  padding: 20px;
+  border-radius: $ui-radius;
+}
+
+/* =========================== */
+
+.ui-app-area form #search {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  border: 1px solid #DDDDDD;
+  padding: 10px;
+}
+ 
+.ui-app-area form #search:focus {
+  box-shadow: 0 0 5px $ui_blue;
+  border: 1px solid $ui_blue;
+}
+.ui-app-area .site-plan a {
+  color: $ui_back;
+  text-decoration: underline;
+}

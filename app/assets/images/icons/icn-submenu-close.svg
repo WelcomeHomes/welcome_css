@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="11px" height="8px" viewBox="0 0 11 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Path</title>
+    <g id="Parcels" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icn-submenu" transform="translate(0.000000, -0.000000)" fill="#000000" fill-rule="nonzero">
+            <polygon id="Path" transform="translate(5.500000, 3.537111) rotate(-180.000000) translate(-5.500000, -3.537111) " points="9.42211111 0 5.50244444 3.92455556 1.57788889 0 0 1.57788889 3.92455556 5.50244444 5.49755556 7.07422222 7.07544444 5.49633333 11 1.57788889"></polygon>
+        </g>
+    </g>
+</svg>

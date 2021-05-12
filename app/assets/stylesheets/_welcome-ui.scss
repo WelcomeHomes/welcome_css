@@ -1,0 +1,89 @@
+// Variables
+
+/* ====================================== */
+// Welcome UI Fonts
+
+$ui_font_small: 14px;
+$ui_font_normal: 16px;
+
+h1, h2, h3, h4 {
+  font-family: 'gt-eesti-regular';
+}
+.ui-app-area {
+  font-family: 'hk_groteskmedium';
+}
+.ui-app-area strong {
+  font-family: 'hk_groteskbold';
+}
+
+/* ====================================== */
+// Welcome UI Colors
+
+$ui_back:          #000000 !important;
+$ui_white:         #ffffff !important;
+$ui_blue:          #4A8FE7 !important;
+$ui_red:           #ff0000 !important;
+$ui_green:         #28A745 !important;
+$ui_darkgray:      #9C9C9C !important;
+$ui_middlegray:    #F2F2F2 !important;
+$ui_lightgray:     #D9D9D9 !important;
+$ui_lightergray:   #FAFAFA !important;
+$ui_fill:          #F8F8F8 !important;
+
+$ui-colors: () !default;
+$ui-colors: map-merge(
+  (
+    "ui-black":         $ui_back,
+    "ui-white":         $ui_white,
+    "ui_blue":          $ui_blue,
+    "ui_green":         $ui_green,
+    "ui_red":           $ui_red,
+    "ui_darkgray":      $ui_darkgray,
+    "ui_middlegray":    $ui_middlegray,
+    "ui_lightgray":     $ui_lightgray,
+    "ui_lightergray":   $ui_lightergray,
+    "ui_fill":          $ui_fill
+  ),
+  $ui-colors
+);
+
+$ui-radius: .25rem !important;
+
+/* ====================================== */
+// Welcome UI - Margin & Padding
+
+$sm-margintop: 10px;
+$sm-marginbottom: 10px;
+
+$md-margintop: 30px;
+$md-marginbottom: 30px;
+
+$lg-margintop: 60px;
+$lg-marginbottom: 60px;
+
+$md-paddingtop: 30px;
+$md-paddingbottom: 30px;
+
+$lg-paddingtop: 60px;
+$lg-paddingbottom: 60px;
+
+/* ====================================== */
+
+.ui-app-area h4 {
+  font-size: 20px;
+}
+
+.land-app {
+  background-color: $ui_lightergray;
+}
+.land-app .main-btns .ui-menu-dots {
+  display: block;
+  float: right;
+}
+.ui-app-area {
+  padding: 22px 20px;
+}
+
+
+
+

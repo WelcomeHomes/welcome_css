@@ -1,0 +1,98 @@
+// Variables
+// Welcome UI - Buttons
+
+.land-app input[type=submit]:hover {
+  background-color: $ui_green;
+  border: 1px solid $ui_green;
+}
+.ui-btn {
+  font-family: 'gt-eesti-medium';
+  padding: 7px 15px 6px 34px;
+  border-radius: $ui-radius;
+  margin-left: 8px !important;
+}
+.ui-btn.btn-primary {
+  background-color: $ui_blue;
+  font-size: $ui_font_normal;
+  background-image: image-url('icons/add.svg');
+  background-repeat: no-repeat;
+  background-position: left 16px top 14px;
+  font-family: 'gt-eesti-medium';
+}
+.btn-primary {
+  background-color: $ui_blue;
+  font-size: $ui_font_normal;
+}
+.ui-btn.btn-outline-primary {
+  color: $ui_back;
+  border-color: $ui_darkgray;
+}
+.ui-btn.btn-download {
+  background-image: image-url('icons/icn-download.svg');
+  background-repeat: no-repeat;
+  background-position: left 14px top 14px;
+}
+.ui-btn.btn-edit {
+  background-image: image-url('icons/icn-edit.svg');
+  background-repeat: no-repeat;
+  background-position: left 14px top 14px;
+}
+.btn.ui-button-drop {
+  padding-top: $lg-paddingtop;
+  padding-bottom: $lg-paddingbottom;
+  border: 1px dashed $ui_lightgray;
+  font-size: $ui_font_small;
+}
+.ui-app-area .dropdown .btn-group .btn {
+  width: 100%;
+  font-size: $ui_font_small;
+  border-bottom: 1px solid $ui_middlegray;
+}
+.ui-app-area .dropdown .btn-group .btn:hover {
+  color: $ui_white;
+}
+.ui-app-area .dropdown .btn-group .btn:last-child {
+  border-bottom: none !important;
+}
+
+/* ========================================= */
+
+.ui-app-area .btn-primary.dropdown-toggle {
+  padding-right: 26px;
+  background-image: image-url('icons/icn-down.svg');
+  background-repeat: no-repeat;
+  background-size: 8px;
+  background-position: right 10px top 16px;
+  font-family: 'gt-eesti-medium';
+}
+.ui-app-area .btn-success {
+  font-family: 'gt-eesti-medium';
+  background-color: transparent;
+  border: 1px solid $ui_blue;
+  color: $ui_blue;
+}
+
+/* ========================================= */
+
+.ui-btn-status {
+  text-indent: -9999px;
+  border-radius: 50%;
+  padding: 0px 4px;
+  font-size: 6px;
+}
+.ui-btn-status.btn-success {
+  background-color: $ui_green;
+  border: 1px solid $ui_green;
+}
+.ui-btn-status.btn-secondary {
+  background-color: $ui_darkgray;
+  border: 1px solid $ui_darkgray;
+}
+
+/* ========================================= */
+
+.ui-app-area input[type=submit].btn.btn-outline-primary {
+  background-color: $ui_back;
+  color: $ui_white;
+  border-color: $ui_back;
+}

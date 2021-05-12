@@ -1,0 +1,38 @@
+// Variables
+// Welcome UI Typography
+
+@font-face {
+    font-family: 'hk_groteskmedium';
+    src: asset-url('HK-Grotesk/Medium/HKGrotesk-Medium.eot');
+    src: asset-url('HK-Grotesk/Medium/HKGrotesk-Medium.eot#iefix') format('embedded-opentype'),
+         asset-url('HK-Grotesk/Medium/HKGrotesk-Medium.woff') format('woff'),
+         asset-url('HK-Grotesk/Medium/HKGrotesk-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'hk_groteskbold';
+    src: asset-url('HK-Grotesk/Bold/HKGrotesk-Bold.eot');
+    src: asset-url('HK-Grotesk/Bold/HKGrotesk-Bold.eot#iefix') format('embedded-opentype'),
+         asset-url('HK-Grotesk/Bold/HKGrotesk-Bold.woff') format('woff'),
+         asset-url('HK-Grotesk/Bold/HKGrotesk-Bold.ttf') format('truetype');
+}
+
+/* ================================ */
+
+@font-face {
+    font-family: 'gt-eesti-regular';
+    src: asset-url('GT-Eesti/Regular/GTEestiDisplay-Regular.eot');
+    src: asset-url('GT-Eesti/Regular/GTEestiDisplay-Regular.eot#iefix') format('embedded-opentype'),
+         asset-url('GT-Eesti/Regular/GTEestiDisplay-Regular.woff') format('woff'),
+         asset-url('GT-Eesti/Regular/GTEestiDisplay-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'gt-eesti-light';
+    src: asset-url('GT-Eesti/Light/GTEestiDisplay-Light.eot');
+    src: asset-url('GT-Eesti/Light/GTEestiDisplay-Light.eot#iefix') format('embedded-opentype'),
+         asset-url('GT-Eesti/Light/GTEestiDisplay-Light.woff') format('woff'),
+         asset-url('GT-Eesti/Light/GTEestiDisplay-Light.ttf') format('truetype');
+}
+
+
+
+

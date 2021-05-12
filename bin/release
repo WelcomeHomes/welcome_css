@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+VERSION=$1
+
+printf "module WelcomeCss\n  VERSION = \"$VERSION\"\nend\n" > ./lib/welcome_css/version.rb
+bundle
+git add Gemfile.lock lib/welcome_css/version.rb
+git commit -m "Bump version for $VERSION"
+git push
+git tag v$VERSION
+git push --tags
+gem build welcome_css.gemspec
+gem push "welcome_css-$VERSION.gem"

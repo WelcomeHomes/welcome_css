@@ -1,0 +1,119 @@
+// Variables
+// Welcome UI - Menu App
+
+.menu-app {
+  background-color: $ui_white;
+}
+.menu-app .list-group-item {
+  border: none;
+  font-size: $ui_font_normal;
+  border-left: 2px solid $ui_white;
+  font-family: 'hk-grotesk-semibold';
+}
+.menu-app .list-group-item-action:hover,
+.menu-app .list-group-item-action:focus {
+  background-color: $ui_lightergray;
+  border-left: 2px solid $ui_blue;
+}
+.land-app .menu-app .list-group-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.land-app .menu-app .list-group-item:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.land-app .list-group-item.submenu-item {
+  padding-left: 50px;
+  background-position: left 30px top 16px;
+}
+.land-app .submenu-icon {
+  background-image: image-url('icons/icn-submenu.svg');
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 10px;
+  right: 0;
+  top: 0px;
+  display: block;
+  margin-top: -16px;
+}
+.land-app [aria-expanded="true"] .submenu-icon {
+  background-image: image-url('icons/icn-submenu-close.svg');
+}
+
+/* =========================== */
+
+.land-app .list-group-item {
+  padding-left: 35px;
+}
+.land-app .item-menu-states,
+.land-app .item-menu-parcels,
+.land-app .item-menu-zonings,
+.land-app .item-menu-brokerages,
+.land-app .item-menu-brokers,
+.land-app .item-menu-permits,
+.land-app .item-menu-soils,
+.land-app .item-menu-requirements,
+.land-app .item-menu-prep-requirements,
+.land-app .item-menu-school-districts,
+.land-app .item-menu-reports,
+.land-app .item-menu-users,
+.land-app .item-menu-models,
+.land-app .item-menu-characteristics,
+.land-app .item-menu-rejections,
+.land-app .item-menu-approval {
+  background-repeat: no-repeat;
+  background-position: left 14px top 16px;
+}
+.land-app .item-menu-states {
+  background-image: image-url('icons/icn-states.svg');
+}
+.land-app .item-menu-parcels {
+  background-image: image-url('icons/icn-parcels.svg');
+}
+.land-app .item-menu-zonings {
+  background-image: image-url('icons/icn-zonings.svg');
+}
+.land-app .item-menu-brokerages {
+  background-image: image-url('icons/icn-brokerages.svg');
+}
+.land-app .item-menu-brokers {
+  background-image: image-url('icons/icn-brokers.svg');
+}
+.land-app .item-menu-permits {
+  background-image: image-url('icons/icn-permits.svg');
+}
+.land-app .item-menu-soils {
+  background-image: image-url('icons/icn-soils.svg');
+}
+.land-app .item-menu-requirements {
+  background-image: image-url('icons/icn-requeriment.svg');
+}
+.land-app .item-menu-prep-requirements {
+  background-image: image-url('icons/icn-prep-requirements.svg');
+  background-position: left 30px top 19px !important;
+}
+.land-app .item-menu-school-districts {
+  background-image: image-url('icons/icn-school-districts.svg');
+}
+.land-app .item-menu-reports {
+  background-image: image-url('icons/icn-reports.svg');
+}
+.land-app .item-menu-users {
+  background-image: image-url('icons/icn-users.svg');
+}
+.land-app .item-menu-models {
+  background-image: image-url('icons/icn-models.svg');
+}
+.land-app .item-menu-characteristics {
+  background-image: image-url('icons/icn-characteristic.svg');
+  background-position: left 30px top 19px !important;
+}
+.land-app .item-menu-rejections {
+  background-image: image-url('icons/icn-rejection.svg');
+  background-position: left 30px top 19px !important;
+}
+.land-app .item-menu-approval {
+  background-image: image-url('icons/icn-aaproval.svg');
+  background-position: left 14px top 19px !important;
+}
