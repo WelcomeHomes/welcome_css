@@ -3,6 +3,11 @@
 /* ====================================== */
 // Welcome UI Fonts
 
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 $ui_font_small: 14px;
 $ui_font_normal: 16px;
 
@@ -73,7 +78,7 @@ $lg-paddingbottom: 60px;
   font-size: 20px;
 }
 
-.land-app {
+.land-app, .main-app {
   background-color: $ui_lightergray;
 }
 .land-app .main-btns .ui-menu-dots {
@@ -82,4 +87,158 @@ $lg-paddingbottom: 60px;
 }
 .ui-app-area {
   padding: 22px 20px;
+}
+.am-left-sidebar .sidebar-elements > li > ul {
+  left: 16% !important;
+}
+
+/* ====================================== */
+
+.am-wrapper.main-app .menu-app {
+  width: 16%;
+}
+.am-wrapper.main-app .navbar {
+  background-color: $ui_white;
+  height: 58px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.05%);
+}
+.am-wrapper.main-app .ui-app-area {
+  padding: 15px;
+  width: 84%;
+  float: right;
+  background-color: #fafafa !important;
+}
+.am-wrapper.main-app .ui-app-area .main-content,
+.am-wrapper.main-app .ui-app-area .page-head {
+  padding: 20px;
+}
+.am-navbar-header .page-title img {
+  width: 84px;
+  margin-left: -26px;
+  margin-top: -10px;
+}
+.admin-options .collapse,
+.admin-options .nav {
+  display: block !important;
+  float: right;
+  margin-left: 6px;
+}
+.admin-options .dropdown-toggle::after {
+  display: none;
+}
+.admin-options .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: -80px;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 100px;
+  padding: 6px;
+  margin: 0.1538rem 0 0;
+  font-size: 13px;
+  color: #555555;
+  text-align: right;
+  list-style: none;
+  background-color: #FFFFFF;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+}
+.admin-options .dropdown-menu a {
+  color: $ui_back;
+}
+
+/* ====================================== */
+
+.am-login img {
+  width: 128px;
+  display: block;
+  margin-bottom: 12px;
+}
+.login-container .card-header {
+  background-color: $ui_back;
+  color: $ui_white;
+}
+.login-container .card-body {
+  padding: 35px 35px 20px;
+}
+.login-container .btn-block {
+  display: block;
+  width: auto;
+  margin: 0 auto;
+  border: none;
+  font-family: gt-eesti-medium;
+  color: #fff;
+  padding: 8px 40px;
+  border-radius: 100px;
+  font-size: 18px !important;
+  font-family: gt-eesti-medium !important;
+}
+.login-container .input-group-text {
+  display: none;
+}
+.login-container .form-group.footer.row {
+  margin-top: 30px;
+  border-top: 1px solid #d9d9d9;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+.login-container .form-control {
+  height: 42px;
+  border: 1px solid #b2b2b2;
+}
+.main-app .dashboard-box {
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+.main-app .dashboard-area {
+  padding: 30px;
+}
+.main-app .dashboard-area .data-info .value {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.am-left-sidebar .sub-menu {
+  position: relative !important;
+  height: auto;
+  width: auto;
+  left: 0 !important;
+  table-layout: auto;
+  top: auto;
+  display: block;
+}
+.am-left-sidebar .sub-menu .title {
+  display: none;
+}
+.am-left-sidebar .sub-menu .nav-items {
+  display: block;
+  float: left;
+  position: relative;
+  height: auto;
+  width: 100%;
+  padding: 0 0 0 30px;
+}
+.am-left-sidebar .sidebar-elements > li > ul >
+.nav-items .am-scroller .content {
+  position: relative !important;
+  padding-top: 0 !important;
+}
+.am-left-sidebar .sidebar-elements > li > ul {
+  left: 0% !important;
+  box-shadow: none !important;
+  width: 100% !important;
+}
+.am-left-sidebar .sidebar-elements > li:hover,
+.am-left-sidebar .sidebar-elements > li.open {
+  background-color: #fff !important;
+}
+.am-left-sidebar .sidebar-elements > li {
+  border-bottom: none !important;
+  list-style: none;
+}
+.main-app .navbar .title .badge {
+  font-size: 13px !important;
 }
