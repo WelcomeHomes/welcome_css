@@ -96,3 +96,6 @@
   color: $ui_white;
   border-color: $ui_back;
 }
+.main-app .main-content .was-validated .form-control:valid, .form-control.is-valid {
+  background-image: none;
+}

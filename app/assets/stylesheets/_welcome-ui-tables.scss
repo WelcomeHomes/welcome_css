@@ -40,9 +40,12 @@ table .ui-table-row {
 
 /* Table Cells  */
 .ui-table thead {
-  background-color: $ui_middlegray;
-  border: 1px solid $ui_middlegray;
+  background-color: #edeff4;
+  border: 1px solid #edeff4;
   font-family: 'hk-grotesk-semibold';
+}
+.ui-table table {
+  background-color: $ui_white;
 }
 .ui-table thead th {
   vertical-align: top;
@@ -120,6 +123,9 @@ table .ui-table-row {
 }
 .site-plan .card-body {
   padding: 0;
+}
+.ui-app-area .list-group-item {
+  min-height: 90px;
 }
 
 /* =========================== */
@@ -391,4 +397,192 @@ table .ui-table-row {
 .ui-app-area .site-plan a {
   color: $ui_back;
   text-decoration: underline;
+}
+
+/* =========================== */
+
+#parcel_form {
+  background-color: $ui_white;
+  padding: 30px;
+}
+
+/* =========================== */
+
+.am-left-sidebar.col-12.col-lg-2.p-0.menu-app {
+  display: block;
+  float: left;
+  position: relative;
+}
+.am-content.col-12.col-lg-10.mx-auto.ui-app-area {
+  display: block;
+  float: right;
+  position: relative;
+}
+.table-striped tbody tr:nth-of-type(odd), .table-striped tbody tr {
+  background-color:#fff;
+}
+.table-striped tbody tr:hover {
+  background-color:#f8f8f8!important;
+}
+.am-wrapper.am-login {
+  max-width: 660px;
+  margin: 120px auto;
+}
+
+.ui-app-area .tab-pane .widget.widget-small {
+  margin-bottom: 60px;
+}
+.ui-app-area .widget-head {
+  background-color: #edeff4 !important;
+  padding: 12px 20px;
+  border: 1px solid #edeff4 !important;
+  -webkit-border-top-left-radius: .25rem!important;
+  -webkit-border-top-right-radius: .25rem!important;
+  -moz-border-radius-topleft: .25rem!important;
+  -moz-border-radius-topright: .25rem!important;
+  border-top-left-radius: .25rem!important;
+  border-top-right-radius: .25rem!important;
+}
+.ui-app-area .widget-head.no-margin {
+  margin-left: 0;
+  margin-right: 0;
+}
+.ui-app-area .widget-head.no-margin .col-sm-8,
+.ui-app-area .widget-head.no-margin .col-sm-12 {
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.ui-app-area .widget-head  .title {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: gt-eesti-regular;
+}
+.ui-app-area .card-body .nav.nav-tabs {
+  margin-bottom: 30px;
+  border-bottom: transparent;
+}
+.ui-app-area .card-body .nav-tabs .nav-link.active, .ui-app-area .card-body .nav-tabs .nav-item.show .nav-link,
+.ui-app-area .card-body .nav-tabs .nav-link:hover {
+  color: #000;
+  background-color: transparent;
+  border-color: transparent transparent #4A8FE7;
+  font-family: gt-eesti-regular;
+}
+.ui-app-area .card-body .nav-tabs .nav-link {
+  color: #000;
+  font-family: gt-eesti-regular;
+}
+.table th, .table td {
+  padding: 1rem;
+}
+.ui-app-area .drop-side {
+  left: 220px !important;
+  top: 4px !important;
+}
+.main-app .ui-app-area .ui-menu-dots .btn {
+  text-align: left;
+}
+.main-app .ui-app-area .ui-menu-dots .btn:hover {
+  background-color: transparent;
+  color: $ui_back !important;
+}
+.main-app .ui-app-area .dots-horizontal {
+  float: right;
+  position: relative;
+  margin-left: 14px;
+  margin-top: -2px;
+}
+.main-app .ui-app-area .title-section {
+  display: block;
+  float: left;
+}
+
+/* =========================== */
+
+.main-content table {
+  box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.68);
+  -webkit-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.68);
+  -moz-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.68);
+}
+
+/* =========================== */
+
+.main-app .tab-table {
+  background-color: $ui_white;
+}
+.main-app .tab-table .card {
+  width: 48%;
+  display: block;
+  float: left;
+  margin: 0 1% 30px 1%;
+  min-height: 140px;
+}
+.main-app .tab-table .card .h4 {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'gt-eesti-regular';
+}
+.main-app .tab-table .card p {
+  margin-bottom: 10px;
+}
+.main-app .tab-table .card .h4 p {
+  margin-bottom: -8px;
+}
+.main-app .tab-table .row-head {
+  background-color: #edeff4;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 30px;
+  padding: 12px 20px;
+  border: 1px solid #edeff4!important;
+}
+.main-app .card .card-header {
+  background-color: #edeff4;
+  font-weight: 600;
+}
+.main-app .ui-app-area .page-head h2 a {
+  color: $ui_back;
+}
+.main-app .ui-app-area .page-head h2 a.btn-primary {
+  color: $ui_white;
+}
+.main-app .ui-app-area .page-head {
+  border-bottom: 1px solid #d9d9d9;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px 0 !important;
+}
+.main-app .ui-app-area .nav-tabs .nav-link {
+  padding: 0.5rem 0;
+  margin-right: 20px;
+}
+.main-app .ui-app-area .tab-content .tab-pane {
+  margin-top: 40px;
+}
+.main-app .ui-app-area .tab-content .tab-pane .h3 {
+  font-size: 20px;
+}
+.main-app .ui-app-area table thead {
+  background-color: #edeff4;
+}
+
+/* =========================== */
+
+.main-app .page-aside {
+  border-bottom: 1px solid #dee2e6;
+  padding: 0 15px 20px 16px;
+}
+.main-app .page-aside ul li {
+  margin-right: 12px;
+}
+
+/* =========================== */
+
+.main-app .am-datatable-footer {
+  text-align: center;
+  margin: 0 auto !important;
+  display: block;
+}
+.main-app .am-datatable-footer .btn-outline-primary {
+  border-color: transparent;
 }
