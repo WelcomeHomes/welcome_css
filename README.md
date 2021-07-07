@@ -1,4 +1,4 @@
-# Welcome Css
+# Welcome CSS
 The gems serves as a wrapper for the basic styling of all the components that we use on our admin systems and internal applications.
 
 ## Installation
