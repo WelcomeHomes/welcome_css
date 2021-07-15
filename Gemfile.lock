@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    welcome_css (0.2)
+    welcome_css (0.3)
       bootstrap (~> 4.6.0, >= 4.6.0)
       rails (>= 6.0.0)
 
@@ -126,7 +126,7 @@ GEM
       method_source
       rake (>= 0.13)
       thor (~> 1.0)
-    rake (13.0.4)
+    rake (13.0.6)
     sassc (2.4.0)
       ffi (~> 1.9)
     sassc-rails (2.1.2)
