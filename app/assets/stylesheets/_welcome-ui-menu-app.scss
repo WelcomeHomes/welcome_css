@@ -16,8 +16,8 @@
   border-left: 2px solid $ui_blue;
 }
 .land-app .menu-app .list-group-item:first-child {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
 }
 .land-app .menu-app .list-group-item:last-child {
   border-bottom-right-radius: 0;

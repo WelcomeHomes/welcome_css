@@ -242,3 +242,16 @@ $lg-paddingbottom: 60px;
 .main-app .navbar .title .badge {
   font-size: 13px !important;
 }
+
+.am-left-sidebar .parent .list-group-item {
+  background-image: url("https://land.welcomehomes.com/assets/icons/icn-submenu-cf0fa33c4c7e45be386bde2e5d9cf8b5297cf24558243549ff5b308a988f8af1.svg");
+  background-repeat: no-repeat;
+  background-position: right 10px top 18px;
+}
+.am-left-sidebar .parent.open .list-group-item {
+  background-image: url("https://land.welcomehomes.com/assets/icons/icn-submenu-close-c4f6ca0fdef472f702d123f11b746478f1820ccb4051671984fea27e64f51d0a.svg");
+}
+.list-group-item:first-child {
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
