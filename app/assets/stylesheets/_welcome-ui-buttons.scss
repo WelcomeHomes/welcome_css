@@ -99,3 +99,22 @@
 .main-app .main-content .was-validated .form-control:valid, .form-control.is-valid {
   background-image: none;
 }
+
+/* ========================================= */
+
+#ui-tabs .btn.btn-select {
+  border: 1px solid #D9D9D9;
+  background-color: $ui_white;
+  margin-top: 30px;
+  margin-left: 0px;
+  width: 420px;
+  text-align: left;
+  padding: 8px 15px !important;
+  background-image: image-url('icons/icn-submenu.svg');
+  background-repeat: no-repeat;
+  background-size: 8px;
+  background-position: right 10px top 18px;
+}
+#ui-tabs .dropdown.dropdown-select .dropdown-menu {
+  width: 420px;
+}
