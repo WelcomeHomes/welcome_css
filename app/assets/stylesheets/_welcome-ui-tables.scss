@@ -24,6 +24,37 @@
   padding: 0;
 }
 
+.land-app .header-fixed {
+  display: block;
+  /*position: fixed;*/
+  height: 130px;
+  margin-top: -22px;
+  /*background-color: #f2f2f2;*/
+  /*margin-left: -15px;*/
+  width: 100%;
+  max-width: 100%;
+  z-index: 2;
+  border-bottom: none !important;
+  margin-left: -14px;
+}
+.header-fixed .row-title {
+  margin-bottom: 5px;
+  margin-left: -14px;
+}
+.land-app .header-fixed hr {
+  margin-top: 0px;
+}
+.land-app .header-fixed-box {
+  position: fixed;
+  background-color: #f2f2f2;
+  top: 20px;
+  padding-right: 18%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.land-app .form-padding {
+  margin-top: 140px !important;
+}
+
 /* Table Header */
 
 table .ui-table-row {
@@ -116,7 +147,7 @@ table .ui-table-row {
 }
 .ui-app-area table .ui-menu-dots {
   width: 20px;
-  height: 100px;
+  height: 70px;
   text-align: right;
 }
 .ui-app-area table .dropdown-menu {
@@ -427,8 +458,9 @@ table .ui-table-row {
 /* =========================== */
 
 #parcel_form {
-  background-color: $ui_white;
-  padding: 30px;
+  /*background-color: $ui_white;*/
+  padding: 30px 0px;
+  /*margin-top: 80px;*/
 }
 
 /* =========================== */
@@ -628,4 +660,50 @@ table .ui-table-row {
 }
 .main-app .am-datatable-footer .btn-outline-primary {
   border-color: transparent;
+}
+
+/* =========================== */
+
+.edit-form-group {
+  display: block;
+  margin-bottom: 30px;
+}
+.edit-form-group .form-row {
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  box-shadow: 0 0 6px 0 rgba(207,207,207,0.50);
+  border-radius: 4px;
+  padding: 20px;
+}
+.edit-form-group.form-group-complete .form-row {
+  background: #FFFFFF;
+  border: 1px solid #91CF97;
+  box-shadow: 0 0 6px 0 rgba(207,207,207,0.50);
+}
+.edit-form-group .form-group {
+  margin-bottom: 0;
+}
+.edit-form-group .col-lg-12,
+.edit-form-group .col-lg-6,
+.edit-form-group .col-lg-4 {
+  margin-bottom: 15px;
+}
+.form-pill {
+  background-color:$ui_white;
+  padding: 6px 10px;
+  border: 1px solid #D9D9D9;
+  border-radius: 4px;
+  color: $ui_back;
+  font-size: 14px;
+}
+.form-pill:hover {
+  text-decoration: none;
+}
+.pill-complete {
+  border: 1px solid #7EB984;
+  padding-right: 33px;
+  background-image: image-url('icons/icn-check.svg');
+  background-repeat: no-repeat;
+  background-size: 13px;
+  background-position: right 10px top 8px;
 }

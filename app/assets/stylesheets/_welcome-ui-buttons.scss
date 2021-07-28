@@ -118,3 +118,20 @@
 #ui-tabs .dropdown.dropdown-select .dropdown-menu {
   width: 420px;
 }
+.btn-dot {
+  top: 6px;
+  background-color: #fff;
+  display: block;
+  float: left;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  box-shadow: -1px 1px 5px -1px rgba(123,123,123,0.25);
+  -webkit-box-shadow: -1px 1px 5px -1px rgba(123,123,123,0.25);
+  -moz-box-shadow: -1px 1px 5px -1px rgba(123,123,123,0.25);
+}
+.btn-dot img {
+  width: 4px;
+  margin-top: -12px;
+}
