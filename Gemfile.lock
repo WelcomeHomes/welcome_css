@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    welcome_css (0.4)
+    welcome_css (0.5)
       bootstrap (~> 4.6.0, >= 4.6.0)
       rails (>= 6.0.0)
 
@@ -79,8 +79,8 @@ GEM
     erubi (1.10.0)
     execjs (2.8.1)
     ffi (1.15.3)
-    globalid (0.4.2)
-      activesupport (>= 4.2.0)
+    globalid (0.5.1)
+      activesupport (>= 5.0)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
     loofah (2.10.0)
