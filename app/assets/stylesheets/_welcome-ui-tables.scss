@@ -688,6 +688,13 @@ table .ui-table-row {
 .edit-form-group .col-lg-4 {
   margin-bottom: 15px;
 }
+.edit-form-group .btn-outline-primary {
+  padding-left: 15px;
+}
+.edit-form-group .btn-outline-primary:hover {
+  background-color: $ui_back;
+  color: $ui_white;
+}
 .form-pill {
   background-color:$ui_white;
   padding: 6px 10px;
