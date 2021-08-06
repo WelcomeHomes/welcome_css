@@ -281,3 +281,170 @@ $lg-paddingbottom: 60px;
 .am-left-sidebar .sidebar-elements > li > ul > .nav-items .am-scroller .content > ul > li > a:hover {
   background-color: transparent !important;
 }
+.admin-options {
+  padding-right: 0 !important;
+}
+
+/* ====================================== */
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .am-wrapper.main-app .menu-app {
+    width: 20% !important;
+    max-width: 20% !important;
+  }
+  .am-wrapper.main-app .ui-app-area {
+    width: 80%;
+  }
+  .main-app .ui-app-area .page-head {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .am-wrapper.main-app .ui-app-area .main-content, .am-wrapper.main-app .ui-app-area .page-head {
+    padding: 20px 0;
+  }
+  .admin-options {
+    margin-right: -15px;
+  }
+}
+@media (min-width: 769px) {
+  input[type="radio"], input[type="checkbox"] {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .page-head .col-md-6 {
+    width: 50%;
+    display: block;
+    float: left;
+    position: relative;
+  }
+  .am-wrapper.main-app .navbar {
+    height: 50px;
+  }
+  .am-top-header {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+  }
+  .am-left-sidebar .am-logo {
+    height: 50px !important;
+  }
+  .am-wrapper.main-app .ui-app-area {
+    width: 100%;
+    margin-top: 50px;
+    display: block;
+  }
+  .am-wrapper.main-app .menu-app {
+    width: 100%;
+    transform: translate3d(0, 0, 0);
+  }
+  .am-left-sidebar.menu-app {
+    transform: translate3d(260px, 0px, 0px) !important;
+    position: fixed !important;
+    width: 260px !important;
+    background: #112e66;
+    color: #eee;
+    right: 0;
+    left: auto;
+    height: 100%;
+    transition: all 0.3s;
+  }
+  .am-left-sidebar .sidebar-elements > li.parent > a:after {
+    display: none;
+  }
+  .am-left-sidebar .sidebar-elements > li > a {
+    padding: 10px 10px 10px 0px;
+  }
+  .am-navbar-header .page-title img {
+    margin-left: -18px;
+    position: fixed;
+    margin-top: 2px;
+  }
+  .button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10000;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .button .fa {
+    transition: color 1000ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition-delay: 0.75s;
+  }
+  input[data-function*=swipe] {
+    position: absolute;
+    opacity: 0;
+  }
+  label[data-function*=swipe] {
+    position: fixed;
+    top: 0px;
+    right: 5px;
+    display: block;
+    width: 36px;
+    height: 50px;
+    text-align: center;
+    color: #444;
+    cursor: pointer;
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.3s;
+    z-index: 9999;
+    font-size: 14px;
+  }
+  .am-content.ui-app-area {
+    flex: 1;
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.3s;
+  }
+  input[data-function*=swipe]:checked ~ .am-content {
+    transform: translate3d(0, 0px, 0px) !important;
+  }
+  input[data-function*=swipe]:checked ~ .am-left-sidebar.col-12.col-lg-2.p-0.menu-app {
+    transform: translate3d(0px, 0px, 0px) !important;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  .nav-menu-btn {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-top: 14px;
+  }
+  .nav-menu-btn .menu-bar {
+    background: #000;
+    width: 15px;
+    height: 2px;
+    margin: 0 0 3px;
+    transition: all .2s ease-in-out;
+  }
+  .nav-menu-btn .menu-bar:last-child {
+    margin: 0;
+  }
+  .am-wrapper.main-app .ui-app-area .main-content,
+  .am-wrapper.main-app .ui-app-area .page-head {
+    padding: 20px 0;
+  }
+  .main-app .ui-app-area .page-head {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .user-profile {
+    position: fixed;
+    top: 11px;
+    right: 46px;
+  }
+  .user-notifications {
+    position: fixed;
+    top: 11px;
+    right: 78px;
+  }
+}
+@media (max-width: 480px) {
+  .am-content.ui-app-area table {
+    table-layout: auto !important;
+  }
+}
