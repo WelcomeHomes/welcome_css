@@ -320,6 +320,7 @@ $lg-paddingbottom: 60px;
   }
   .am-wrapper.main-app .navbar {
     height: 50px;
+    display: block;
   }
   .am-top-header {
     position: fixed !important;
@@ -393,6 +394,10 @@ $lg-paddingbottom: 60px;
     transition: transform 0.3s;
     z-index: 9999;
     font-size: 14px;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjQgNmgtMjR2LTRoMjR2NHptMCA0aC0yNHY0aDI0di00em0wIDhoLTI0djRoMjR2LTR6Ii8+PC9zdmc+');
+    background-repeat: no-repeat;
+    background-size: 18px;
+    background-position: top 16px right 12px;
   }
   .am-content.ui-app-area {
     flex: 1;
@@ -407,12 +412,13 @@ $lg-paddingbottom: 60px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   }
   .nav-menu-btn {
-    display: inline-block;
-    vertical-align: middle;
+    display: none;
+    /*vertical-align: middle;
     padding: 5px;
-    font-size: 24px;
     cursor: pointer;
     margin-top: 14px;
+    border: 1px solid #000;
+    z-index: 9999;*/
   }
   .nav-menu-btn .menu-bar {
     background: #000;
@@ -441,6 +447,16 @@ $lg-paddingbottom: 60px;
     position: fixed;
     top: 11px;
     right: 78px;
+  }
+  .navbar-toggler {
+    display: none;
+  }
+  .col-6.admin-options {
+    display: block;
+    float: right;
+    position: relative;
+    padding-right: 40px !important;
+    height: 30px;
   }
 }
 @media (max-width: 480px) {
