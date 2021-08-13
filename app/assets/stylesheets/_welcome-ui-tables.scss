@@ -714,3 +714,43 @@ table .ui-table-row {
   background-size: 13px;
   background-position: right 10px top 8px;
 }
+
+/* =========================== */
+
+.calculator-container {
+  display: block;
+  width: 100%;
+  background-color: #292926;
+  padding: 12px;
+}
+.calculator-container #screen {
+  color: $ui_white;
+  font-size: 26px;
+}
+.calculator-container .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+.calculator-container .row button {
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #292926;
+  transition: all .2s;
+  cursor: pointer;
+}
+.calculator-container .row button:hover {
+  transform :scale(1.03);
+}
+.calculator-container .row button:active {
+  transform: scale(.98);
+}
+.calculator-container .gray_light {
+  background-color: #5F5E5C;
+}
+.calculator-container .gray_dark {
+  background-color: #3E3D3A;
+}
+.calculator-container .bg_blue {
+  background-color: $ui_blue;
+}
