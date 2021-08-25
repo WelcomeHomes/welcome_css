@@ -714,3 +714,355 @@ table .ui-table-row {
   background-size: 13px;
   background-position: right 10px top 8px;
 }
+
+/* =========================== */
+
+.calculator-container {
+  display: block;
+  width: 100%;
+  background-color: #292926;
+  padding: 12px;
+}
+.calculator-container #screen {
+  color: $ui_white;
+  font-size: 26px;
+}
+.calculator-container .row {
+  margin-right: 0;
+  margin-left: 0;
+}
+.calculator-container .row button {
+  width: 100%;
+  background-color: transparent;
+  color: #fff;
+  border: 2px solid #292926;
+  transition: all .2s;
+  cursor: pointer;
+}
+.calculator-container .row button:hover {
+  transform :scale(1.03);
+}
+.calculator-container .row button:active {
+  transform: scale(.98);
+}
+.calculator-container .gray_light {
+  background-color: #5F5E5C;
+}
+.calculator-container .gray_dark {
+  background-color: #3E3D3A;
+}
+.calculator-container .bg_blue {
+  background-color: $ui_blue;
+}
+
+/* =========================== */
+
+.block-stats {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  margin-bottom: $md-marginbottom;
+}
+.block-stats select {
+  display: block;
+  float: left;
+  position: relative;
+  min-width: 140px;
+  height: 36px;
+  border: 1px solid #D9D9D9;
+  border-radius: $ui-radius;
+  padding: 4px 6px;
+}
+.block-stats .block-stats-area {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  background-color: $ui_white;
+  border-radius: $ui-radius;
+  min-height: 100px;
+  padding: 15px 20px;
+}
+.block-stats div {
+  display: block;
+  float: left;
+  position: relative;
+  margin-bottom: 12px;
+}
+.widget-box {
+  display: block;
+  float: left;
+  position: relative;
+  padding: 0 3px;
+}
+.widget {
+  display: block;
+  float: left;
+  position: relative;
+  background-color: #EEF2F7;
+  border: 1px solid #D2D5DA;
+  border-radius: $ui-radius;
+  padding: 15px 20px;
+  min-height: 300px;
+}
+.widget .widget-title {
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 12px;
+  min-height: 48px;
+}
+.widget .widget-information {
+  font-size: 13px;
+  margin-top: 12px;
+  min-height: 90px;
+}
+.widget .phase {
+  border-radius: $ui-radius;
+  padding: 0 2px;
+  color: $ui_white;
+}
+.widget .phase.p-pass {
+  background-color: $ui_blue;
+}
+.widget .phase.p-questionable {
+  background-color: #FAC15F;
+  color: $ui_back;
+}
+.widget .phase.p-offmarket {
+  background-color: #FF411D;
+}
+.widget .phase.p-reject {
+  background-color: #FF411D;
+}
+
+.block-stats .progress {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background-color: transparent;
+}
+.block-stats .progress-small {
+  height: 8px;
+  margin-bottom: 0;
+  background-color: #e9ecef;
+}
+.block-stats .progress-bar {
+  height: 10px;
+  border-radius: $ui-radius;
+}
+.block-stats .progress-small .progress-bar {
+  height: 8px;
+  border-radius: $ui-radius;
+}
+.block-stats label {
+  display: block;
+}
+.block-stats .separate {
+  border-top: 1px solid #D9D9D9;
+  padding-top: 12px;
+}
+
+.approval-requirements-area .w-33 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.approval-requirements-area .w-33 .w-50,
+.approval-requirements-area .w-33 .w-100 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.block-stats-area .counties {
+  font-size: 14px;
+}
+.block-stats-area .counties label {
+  margin-bottom: 2px;
+}
+
+.approval-requirements-area .block-title {
+  font-size: 18px;
+}
+.approval-requirements-area .block-title img {
+  margin-top: -4px;
+}
+.month-stats {
+  margin-bottom: 0 !important;
+}
+.month-stats .month {
+  width: 8.33%;
+  margin-bottom: 0;
+  font-size: 10px;
+  text-align: center;
+}
+.month-stats .month-chart {
+  width: 8.33%;
+  margin-bottom: 0;
+}
+
+.month-stats .month-chart .progress.vertical {
+  width: 100%;
+  min-height: 60px;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: flex-end;
+  -webkit-align-items: flex-end;
+  padding: 0 3px;
+}
+
+.month-stats .month-chart .progress.vertical .progress-bar {
+  width: 100%;
+  height: 0;
+  -webkit-transition: height 0.6s ease;
+  -o-transition: height 0.6s ease;
+  transition: height 0.6s ease;
+  background-color: #007bff;
+  margin-bottom: 0;
+  border-radius: $ui-radius;
+}
+
+.new-properties-area .widget .widget-title {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  min-height: 40px;
+}
+.new-properties-area .widget .widget-information {
+  margin-top: 4px;
+  min-height: 90px;
+}
+.new-properties-area .widget .widget-information div {
+  margin-bottom: 2px;
+}
+.new-properties-area .widget .widget-subtitle {
+  font-size: 16px;
+}
+.new-properties-area .widget .phase-number {
+  background-color: $ui_back;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  color: $ui_white;
+  text-align: center;
+  display: block;
+  float: left;
+  position: relative;
+  margin-right: 4px;
+}
+.new-properties-area .widget .phase-number.phase-questionable {
+  background-color: #FAC15F !important;
+  color: $ui_back;
+}
+.new-properties-area .widget .phase-number.phase-pass {
+  background-color: #528DE9 !important;
+}
+.new-properties-area .widget .phase-number.phase-offmarket,
+.new-properties-area .widget .phase-number.phase-reject {
+  background-color: #FF411D !important;
+}
+
+.block-stats-area .select-filters select {
+  margin-right: 10px;
+}
+.block-stats-area .with-select select {
+  float: right;
+}
+.block-stats-area .content-right {
+  padding-right: 0;
+}
+.block-stats-area .content-right select {
+  float: right;
+}
+.block-stats-area .btn.btn-success,
+.block-stats-area .btn.btn-alternative {
+  margin-bottom: 0 !important;
+}
+
+.search-area {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.search-area .search-lp {
+  height: 50px;
+  -webkit-border-top-right-radius: 0px;
+  -webkit-border-bottom-right-radius: 0px;
+  -moz-border-radius-topright: 0px;
+  -moz-border-radius-bottomright: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.search-area button {
+  height: 50px;
+  -webkit-border-top-left-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  height: 50px;
+  padding: 5px;
+}
+.search-area button.btn-primary {
+  background-color: #EEF2F7 !important;
+  font-size: 16px;
+  border: 1px solid #D9D9D9;
+  color: #AFAFAF;
+  text-align: center;
+}
+.search-area button img {
+  width: -moz-available; 
+  width: -webkit-fill-available;
+  width: fill-available;
+  max-width: 35px;
+}
+
+.compared-area {
+  font-size: 14px;
+}
+.compared-area .compared-to select {
+  width: 100px;
+  min-width: auto;
+  margin-right: 10px;
+}
+.compared-area label {
+  margin-bottom: 0;
+}
+
+.daily-stats .daily-widget {
+  min-height: auto;
+  padding: 15px 20px 25px 20px;
+  margin-bottom: 30px;
+}
+.daily-stats .daily-widget_last-child {
+  margin-bottom: 0px;
+}
+.daily-stats .daily-widget .title-data {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 6px 0 -4px 0;
+}
+.daily-stats .daily-widget .subtitle-data {
+  font-size: 10px;
+}
+.daily-stats .phase {
+  font-size: 12px;
+}
+.daily-stats .widget .widget-title {
+  min-height: auto;
+}
+.daily-stats .quick-links .widget a {
+  display: block;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  color: #000;
+}
