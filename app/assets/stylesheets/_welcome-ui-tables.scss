@@ -806,6 +806,12 @@ table .ui-table-row {
   padding: 15px 20px;
   min-height: 300px;
 }
+.am-content .widget {
+  float: none;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+}
 .widget .widget-title {
   font-size: 18px;
   line-height: 22px;
