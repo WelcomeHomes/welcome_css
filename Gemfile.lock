@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    welcome_css (0.9)
+    welcome_css (0.10)
       bootstrap (~> 4.6.0, >= 4.6.0)
       rails (>= 6.0.0)
 
@@ -93,7 +93,7 @@ GEM
     mini_mime (1.1.1)
     minitest (5.14.4)
     nio4r (2.5.8)
-    nokogiri (1.12.3-x86_64-darwin)
+    nokogiri (1.12.4-x86_64-darwin)
       racc (~> 1.4)
     popper_js (1.16.0)
     racc (1.5.2)
