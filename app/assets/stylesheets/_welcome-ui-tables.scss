@@ -159,6 +159,9 @@ table .ui-table-row {
   background-color: transparent;
   border: transparent;
 }
+.ui-app-area .dropdown .btn.dropdown-toggle:hover .dropdown-menu {
+  display: block !important;
+}
 .site-plan .card-body {
   padding: 0;
 }
@@ -1163,4 +1166,59 @@ table .ui-table-row {
 }
 .ui-app-area .icn-title {
   margin-top: -8px;
+}
+
+/* =========================== */
+
+.card.card-fixed {
+  border: none;
+  border-radius: $ui-radius;
+  background-color: transparent;
+}
+.note-fixed {
+  background-color: #FDFEFF;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 30px 45px;
+  box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.45);
+  -webkit-box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.45);
+  -moz-box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.45);
+  margin-bottom: 15px;
+}
+.note-fixed .title {
+  border-bottom: 1px solid $ui_lightgray;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+.note-fixed .title h4 {
+  font-weight: 600;
+}
+.note-fixed .body p {
+  margin-bottom: 10px;
+}
+.note-fixed .body .block-information {
+  margin-bottom: 30px;
+}
+.note-fixed .body .block-information:last-child {
+  margin-bottom: 0px;
+}
+.main-content.request-area .sticky-top {
+  height: calc(100vh - 20px);
+  overflow: scroll;
+}
+.card-form-dev label {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  font-family: 'gt-eesti-regular';
+}
+.card-form-dev .checkbox-wrapper label,
+.card-form-dev .user_story_form label {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'hk_groteskmedium';
+}
+.card-form-dev .user_story_form label {
+  margin-top: 12px;
+  margin-bottom: 0px;
 }
