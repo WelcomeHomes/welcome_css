@@ -567,9 +567,9 @@ table .ui-table-row {
 /* =========================== */
 
 .main-content table {
-  box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.68);
-  -webkit-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.68);
-  -moz-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.68);
+  box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.25);
+  -webkit-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.25);
+  -moz-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.25);
 }
 
 /* =========================== */
@@ -759,6 +759,7 @@ table .ui-table-row {
 }
 
 /* =========================== */
+/* Land App - LP */
 
 .block-stats {
   display: block;
@@ -1049,6 +1050,9 @@ table .ui-table-row {
   margin-bottom: 0;
 }
 
+/* =========================== */
+/* Land App - Daily Stats */
+
 .daily-stats .daily-widget {
   min-height: auto;
   padding: 15px 20px 25px 20px;
@@ -1083,6 +1087,7 @@ table .ui-table-row {
 }
 
 /* =========================== */
+/* Teardown UI adaptations */
 
 .ui-app-area .teardown-information-block {
   display: block;
@@ -1169,6 +1174,7 @@ table .ui-table-row {
 }
 
 /* =========================== */
+/* Fixed Note for Dev Requests */
 
 .card.card-fixed {
   border: none;
@@ -1222,3 +1228,34 @@ table .ui-table-row {
   margin-top: 12px;
   margin-bottom: 0px;
 }
+
+/* =========================== */
+/* Menu Dots open on hover */
+
+.ui-app-area .table-responsive {
+  overflow: visible;
+}
+.dropdown.dropleft:hover > .dropdown-menu {
+  display: block !important;
+  right: 8px !important;
+  cursor: pointer;
+}
+
+/* =========================== */
+/* Breadcrumbs - UI adaptations */
+
+.breadcrumb {
+  color: #6c757d;
+}
+
+/* =========================== */
+/* Admin App - LP */
+
+
+
+
+
+
+
+
+
