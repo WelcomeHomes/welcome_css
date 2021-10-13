@@ -585,6 +585,18 @@
   color: #000 !important;
 }
 
+.am-content.ui-app-area .nav-lateral {
+  display: block;
+  float: left;
+  position: relative;
+  width: 18%;
+}
+.am-content.ui-app-area .content-lateral {
+  display: block;
+  float: right;
+  position: relative;
+  width: 82%;
+}
 
  
  

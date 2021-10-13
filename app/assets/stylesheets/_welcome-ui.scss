@@ -459,6 +459,35 @@ $lg-paddingbottom: 60px;
     height: 30px;
   }
 }
+
+@media (max-width: 580px) {
+  .am-content.ui-app-area .widget-area .widget-box {
+    width: 50% !important;
+  }
+  .am-content.ui-app-area .block-stats .block-stats-area .parcels-list div {
+    width: 100% !important;
+  }
+  .am-content.ui-app-area .block-stats .block-stats-area .table-responsive tbody tr td {
+    padding-right: 10px;
+  }
+  .am-content.ui-app-area .block-stats .block-stats-area.asking-price-range .w-25 {
+    width: 50% !important;
+    margin-bottom: 12px;
+  }
+  .am-content.ui-app-area .block-stats .block-stats-area .list-approbed {
+    width: 100% !important;
+    padding-top: 320px;
+    padding-right: 0 !important;
+  }
+  .am-content.ui-app-area .block-stats .block-stats-area .maps-frame {
+    height: 300px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100% !important;
+  }
+}
+
 @media (max-width: 480px) {
   .am-content.ui-app-area table {
     table-layout: auto !important;
