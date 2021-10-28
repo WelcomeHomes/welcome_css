@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    welcome_css (0.15)
+    welcome_css (0.16)
       bootstrap (~> 4.6.0, >= 4.6.0)
       rails (>= 6.0.0)
 
@@ -98,7 +98,7 @@ GEM
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     popper_js (1.16.0)
-    racc (1.5.2)
+    racc (1.6.0)
     rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
@@ -152,7 +152,7 @@ GEM
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    zeitwerk (2.4.2)
+    zeitwerk (2.5.1)
 
 PLATFORMS
   ruby
