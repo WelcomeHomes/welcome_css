@@ -79,6 +79,21 @@
   color: $ui_back;
 }
 
+.btn-black {
+  background-color: $ui_back;
+  font-size: $ui_font_normal;
+  color: $ui_white;
+  border: 1px solid $ui_back;
+  font-family: 'gt-eesti-medium';
+}
+.btn-black-alternative {
+  background-color: $ui_white;
+  font-size: $ui_font_normal;
+  color: $ui_back;
+  border: 1px solid $ui_back;
+  font-family: 'gt-eesti-medium';
+}
+
 /* ========================================= */
 
 .ui-btn-status {

@@ -557,6 +557,26 @@ table .ui-table-row {
   border-bottom: 1px solid #4A8FE7;
 }
 
+.ui-app-area .card-body .content-lateral .nav-link {
+  background-image: none;
+  border: 0px;
+  border-bottom: 1px solid #fff;
+  padding: 8px 0px 8px 0px !important;
+  background-color: transparent;
+  border-radius: 0px !important;
+}
+.ui-app-area .card-body .content-lateral .nav-link.active,
+.ui-app-area .card-body .content-lateral .nav-link:hover {
+  background-image: none;
+  border: 0px;
+  border-bottom: 1px solid #4A8FE7;
+  padding: 8px 0px 8px 0px !important;
+  background-color: transparent;
+  border-radius: 0px !important;
+}
+
+
+
 .table th, .table td {
   padding: 1rem;
 }
@@ -617,6 +637,9 @@ table .ui-table-row {
   box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.15);
   -webkit-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.15);
   -moz-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.15);
+}
+.am-content.ui-app-area .widget-head-nocolor {
+  background-color: transparent;
 }
 
 /* =========================== */
@@ -696,6 +719,14 @@ table .ui-table-row {
   margin-bottom: 30px;
   padding: 12px 20px;
   border: 1px solid #edeff4!important;
+}
+.main-app .tab-table .row-head-white {
+  background-color: #fff;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 30px;
+  padding: 12px 20px;
+  border-bottom: 1px solid #000!important;
 }
 .main-app .card .card-header {
   background-color: #edeff4;
@@ -1440,7 +1471,35 @@ table .ui-table-row {
 }
 
 /* =========================== */
-/* Admin App - LP */
+/* Modals*/
+
+.am-content.ui-app-area .modal-dialog .btn-outline-danger {
+  color: #FF4949;
+  border-color: #FF4949;
+  padding: 4px 10px 4px 30px;
+  background-image: image-url('icons/icn-trash.svg');
+  background-repeat: no-repeat;
+  background-size: 13px;
+  background-position: left 9px top 8px;
+}
+.am-content.ui-app-area .modal-dialog .btn-outline-danger:hover {
+  color: #fff;
+  background-image: image-url('icons/icn-trash-white.svg');
+}
+.am-content.ui-app-area .modal-dialog textarea.form-control {
+  height: 80px;
+}
+.am-content.ui-app-area .modal-dialog .modal-content {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 0 6px 0 rgba(207,207,207,0.50);
+}
+.am-content.ui-app-area .modal.show {
+  background: rgba(145,145,145,0.70);
+}
+
+
+
 
 
 

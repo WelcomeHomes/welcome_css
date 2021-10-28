@@ -1,0 +1,28 @@
+/* =========================== */
+/* Responsive */
+
+@media (max-width: 1024px) {
+  .am-content.ui-app-area .nav-lateral {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+  }
+  .am-content.ui-app-area .nav-lateral.nav-tabs .nav-item {
+    display: block;
+    float: left;
+    position: relative;
+  }
+  .am-content.ui-app-area .content-lateral {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 680px;
+  }
+}
