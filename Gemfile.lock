@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    welcome_css (0.16)
+    welcome_css (0.17)
       bootstrap (~> 4.6.0, >= 4.6.0)
       rails (>= 6.0.0)
 
@@ -81,7 +81,7 @@ GEM
     ffi (1.15.4)
     globalid (0.5.2)
       activesupport (>= 5.0)
-    i18n (1.8.10)
+    i18n (1.8.11)
       concurrent-ruby (~> 1.0)
     loofah (2.12.0)
       crass (~> 1.0.2)
