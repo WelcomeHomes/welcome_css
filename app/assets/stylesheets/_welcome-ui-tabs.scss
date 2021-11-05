@@ -27,3 +27,15 @@
 #ui-tabs .tab-content {
   margin-top: $md-margintop;
 }
+.am-content.ui-app-area .tab-content .tab-pane .nav-tabs-dates {
+  background-color: #fff;
+  padding: 8px 12px !important;
+  border: 1px solid #EDEFF4;
+  border-radius: $ui-radius;
+  box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.15);
+  -webkit-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.15);
+  -moz-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.15);
+}
+.am-content.ui-app-area .tab-content .tab-pane .nav-tabs-dates.active {
+  border: 1px solid #007bff;
+}

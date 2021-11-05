@@ -79,6 +79,14 @@
   color: $ui_back;
 }
 
+.btn-blue-alternative {
+  background-color: $ui_white;
+  font-size: $ui_font_normal;
+  color: $ui_blue;
+  border: 1px solid $ui_blue;
+  font-family: 'gt-eesti-medium';
+}
+
 .btn-black {
   background-color: $ui_back;
   font-size: $ui_font_normal;
@@ -168,3 +176,21 @@
   width: 30px;
   height: 30px;
 }*/
+
+/* ========================================= */
+
+.am-content.ui-app-area .btn-add {
+  background-color: #fff;
+  padding: 8px 12px !important;
+  border: 1px solid #007bff;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 3px 12px !important;
+  border-radius: $ui-radius;
+  box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.15);
+  -webkit-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.15);
+  -moz-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.15);
+}
+.am-content.ui-app-area .btn-add:hover {
+  text-decoration: none;
+}

@@ -151,6 +151,38 @@ $lg-paddingbottom: 60px;
 
 /* ====================================== */
 
+.breadcrumb {
+  background-color: #fff !important;
+  padding-right: 130px;
+  box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.25);
+  -webkit-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.25);
+  -moz-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.25);
+  background-image: image-url('icons/division-line.svg');
+  background-repeat: repeat-y;
+  background-position: top right 120px;
+}
+.breadcrumb a {
+  color: $ui_back;
+  border-bottom: 1px solid $ui_blue;
+}
+.breadcrumb a:hover {
+  text-decoration: none;
+}
+
+/* ====================================== */
+
+.prev-next {
+  display: block;
+  position: absolute;
+  right: 30px;
+  top: 32px;
+}
+.prev-next a {
+  margin: 0 5px;
+}
+
+/* ====================================== */
+
 .am-login img {
   width: 128px;
   display: block;

@@ -524,6 +524,9 @@ table .ui-table-row {
   margin-bottom: 30px;
   border-bottom: transparent;
 }
+.widget-small .nav.nav-tabs {
+  padding-right: 50px;
+}
 .ui-app-area .card-body .nav-tabs .nav-link.active, .ui-app-area .card-body .nav-tabs .nav-item.show .nav-link,
 .ui-app-area .card-body .nav-tabs .nav-link:hover {
   color: #000;
@@ -531,15 +534,11 @@ table .ui-table-row {
   border: 1px solid #EDEFF4;
   border-radius: $ui-radius;
   font-family: gt-eesti-regular;
-  background-image: image-url('icons/menu_requirements.svg');
-  background-repeat: no-repeat;
-  background-size: 10px;
-  background-position: top 15px left 6px;
 }
 .ui-app-area .card-body .nav-tabs .nav-link {
   color: #000;
   font-family: gt-eesti-regular;
-  padding: 8px 8px 8px 22px !important;
+  padding: 8px 12px !important;
 }
 
 /* =========================== */
@@ -573,6 +572,28 @@ table .ui-table-row {
   padding: 8px 0px 8px 0px !important;
   background-color: transparent;
   border-radius: 0px !important;
+}
+.ui-app-area .card-body .status-readed {
+  display: inline-block;
+  float: none;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-image: image-url('icons/icon-read-yes.svg');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  top: 2px;
+}
+.ui-app-area .card-body .status-notreaded {
+  display: inline-block;
+  float: none;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-image: image-url('icons/icon-read-no.svg');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  top: 2px;
 }
 
 
@@ -646,7 +667,8 @@ table .ui-table-row {
 
 .main-content table,
 .am-content.ui-app-area .table-widget,
-.am-content.ui-app-area .content-lateral table {
+.am-content.ui-app-area .content-lateral table,
+.land-app .table {
   box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.25);
   -webkit-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.25);
   -moz-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.25);
@@ -1392,6 +1414,38 @@ table .ui-table-row {
   margin-top: -8px;
 }
 
+.land-app .ui-app-area .table-item {
+  padding: 0;
+  border: none;
+}
+.land-app .ui-app-area .table-item .ui-table td {
+  padding: 5px 20px;
+  border-bottom: transparent;
+}
+
+/* =========================== */
+
+.land-app .ui-app-area .dropzone {
+  background-color: #fff;
+}
+
+/* =========================== */
+
+.land-app .ui-app-area .general-table {
+  margin-bottom: 0;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border: 1px solid #dee2e6 !important;
+  margin-bottom: -1px;
+}
+.land-app .ui-app-area .general-table td {
+  border-top: transparent;
+}
+.land-app .ui-app-area .general-table input[type=submit]:hover {
+  background-color: #000 !important;
+  border: 1px solid #000 !important;
+}
+
 /* =========================== */
 /* Fixed Note for Dev Requests */
 
@@ -1476,11 +1530,13 @@ table .ui-table-row {
 .am-content.ui-app-area .modal-dialog .btn-outline-danger {
   color: #FF4949;
   border-color: #FF4949;
-  padding: 4px 10px 4px 30px;
+  padding: 4px 14px;
   background-image: image-url('icons/icn-trash.svg');
   background-repeat: no-repeat;
   background-size: 13px;
   background-position: left 9px top 8px;
+  width: 33px;
+  height: 36px;
 }
 .am-content.ui-app-area .modal-dialog .btn-outline-danger:hover {
   color: #fff;
@@ -1498,8 +1554,136 @@ table .ui-table-row {
   background: rgba(145,145,145,0.70);
 }
 
+/* =========================== */
 
+.absolute-right {
+  display: block;
+  position: absolute;
+  right: 15px;
+  top: 0;
+  z-index: 100;
+}
 
+/* =========================== */
+
+.am-content.ui-app-area .modal .property-address .select {
+  padding-right: 45px;
+}
+.am-content.ui-app-area .modal .property-address select {
+  height: 36px !important;
+}
+.am-content.ui-app-area .modal .property-address .select2-container .select2-selection--single,
+.am-content.ui-app-area .modal .select2-container--default .select2-selection--single {
+  height: 36px !important;
+}
+.am-content.ui-app-area .modal .property-address .btn.btn-outline-danger {
+  display: block;
+  position: absolute;
+  top: 32px;
+  right: 15px;
+}
+
+/* =========================== */
+
+.am-content.ui-app-area .modal .form-separation {
+  margin-bottom: 18px;
+}
+.ui-app-area .widget.widget-properties {
+  min-height: auto !important;
+}
+.ui-app-area .widget.widget-properties .card {
+  background-color: #F6F9FD;
+  min-height: auto;
+}
+.ui-app-area .widget.widget-properties .card-body {
+  padding: 25px 0px !important;
+  margin: 0 !important;
+  display: block;
+  font-size: 13px;
+}
+.ui-app-area .widget.widget-properties .card-body .row.row-full:first-child {
+  padding-bottom: 6px;
+}
+.ui-app-area .widget.widget-properties .card-body .h4 {
+  font-size: 15px;
+}
+.ui-app-area .widget.widget-properties .card-body .h4:last-child {
+  margin-bottom: 0;
+}
+.ui-app-area .widget.widget-properties .card-body .status-bubble {
+  display: block;
+  float: right;
+  position: relative;
+  border: 1px solid #D8D8D7;
+  border-radius: 8px;
+  padding: 1px 6px;
+  background-color: $ui_white;
+}
+.ui-app-area .widget.widget-properties .card-body .status-bubble .red {
+  background-color: #F46464;
+  display: inline-block;
+  float: left;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-top: 6px;
+  margin-right: 4px;
+}
+.ui-app-area .widget.widget-properties .card-body .status-bubble .green {
+  background-color: #62DA87;
+  display: inline-block;
+  float: left;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-top: 6px;
+  margin-right: 4px;
+}
+.ui-app-area .widget.widget-properties .card-body .status-bubble .black {
+  background-color: #D8DBE5;
+  display: inline-block;
+  float: left;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-top: 6px;
+  margin-right: 4px;
+}
+.am-content.ui-app-area .no-properties {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.25);
+  -webkit-box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.25);
+  -moz-box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.25);
+}
+.am-content.ui-app-area .no-properties h5 {
+  padding: 22px 20px;
+}
+.am-content.ui-app-area .no-properties .h4 {
+  padding: 22px 20px;
+  border-bottom: 1px solid #000;
+}
+.am-content.ui-app-area .no-properties p {
+  padding: 12px 20px;
+}
+
+/* =========================== */
+
+.am-content.ui-app-area #manage_properties .nav-item {
+  margin-bottom: 6px;
+}
+
+/* =========================== */
+
+.am-content.ui-app-area .row-full {
+  width: 100%;
+  margin: 0 !important;
+}
 
 
 
