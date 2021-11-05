@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    welcome_css (0.18)
+    welcome_css (0.19)
       bootstrap (~> 4.6.0, >= 4.6.0)
       rails (>= 6.0.0)
 
@@ -69,7 +69,7 @@ GEM
       zeitwerk (~> 2.3)
     autoprefixer-rails (10.3.3.0)
       execjs (~> 2)
-    bootstrap (4.6.0)
+    bootstrap (4.6.1)
       autoprefixer-rails (>= 9.1.0)
       popper_js (>= 1.14.3, < 2)
       sassc-rails (>= 2.0.0)
