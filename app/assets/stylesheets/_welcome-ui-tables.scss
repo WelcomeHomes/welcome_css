@@ -1503,6 +1503,24 @@ table .ui-table-row {
 }
 
 /* =========================== */
+
+.ui-app-area .cart-abandonments .order-address,
+.ui-app-area .cart-abandonments .order-property,
+.ui-app-area .cart-abandonments .order-county,
+.ui-app-area .cart-abandonments .order-state {
+  display: none;
+}
+.ui-app-area .cart-abandonments-options.ui-menu-dots {
+  display: none;
+}
+.ui-app-area .cart-abandonments .cart-abandonments-options.ui-menu-dots {
+  display: block;
+}
+.ui-app-area .cart-abandonments .cart-abandonments-options.ui-menu-dots .dropdown.dropleft:hover > .dropdown-menu {
+  right: 0px!important;
+}
+
+/* =========================== */
 /* Menu Dots open on hover */
 
 .ui-app-area .table-responsive {
