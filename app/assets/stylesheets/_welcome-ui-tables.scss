@@ -1520,6 +1520,26 @@ table .ui-table-row {
   right: 0px!important;
 }
 
+.ui-app-area .parcel-pdf-dropdown .dropdown-menu {
+  width: 158px !important;
+  left: 0 !important;
+  min-width: auto;
+  max-width: 158px;
+  font-weight: bold;
+}
+.ui-app-area .parcel-pdf-dropdown .dropdown-menu .nav-link {
+  width: 158px !important;
+  left: 0 !important;
+  min-width: auto;
+  max-width: 158px;
+  border-bottom: 1px solid #D9D9D9;
+  font-size: 15px;
+  color: #5E5E5D;
+}
+.ui-app-area .parcel-pdf-dropdown .dropdown-menu .nav-link:last-child {
+  border-bottom: transparent;
+}
+
 /* =========================== */
 /* Menu Dots open on hover */
 
