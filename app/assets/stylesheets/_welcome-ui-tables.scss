@@ -1723,6 +1723,22 @@ table .ui-table-row {
   margin: 0 !important;
 }
 
+/* =========================== */
+
+.land-app .ui-app-area .message-bubble {
+  display: block;
+  float: left;
+  position: relative;
+  background-color: #EBEFF5;
+  padding: 12px;
+  margin-top: 12px;
+  border-radius: 4px;
+}
+.land-app .ui-app-area .message-date {
+  color: #767A89;
+  font-size: 14px;
+}
+
 
 
 
