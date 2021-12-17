@@ -762,8 +762,8 @@ table .ui-table-row {
 }
 .main-app .ui-app-area .page-head {
   border-bottom: 1px solid #d9d9d9;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
   padding: 20px 0 !important;
 }
 .main-app .ui-app-area .nav-tabs .nav-link {
@@ -1737,6 +1737,230 @@ table .ui-table-row {
 .land-app .ui-app-area .message-date {
   color: #767A89;
   font-size: 14px;
+}
+
+/* =========================== */
+
+.am-content.ui-app-area .model-widget {
+  display: block;
+  position: relative;
+  background-color: $ui_white;
+  padding: 18px 20px;
+  border-radius: $ui-radius;
+  box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.25);
+  -webkit-box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.25);
+  -moz-box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.25);
+  margin-bottom: 30px;
+  width: 49%;
+  margin-top: 30px;
+}
+.am-content.ui-app-area .model-widget:nth-child(odd) {
+  margin-right: 5px;
+  float: left;
+}
+.am-content.ui-app-area .model-widget:nth-child(even) {
+  margin-left: 5px;
+  float: right;
+}
+.am-content.ui-app-area .model-widget .model-info {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  margin-bottom: 12px;
+}
+.am-content.ui-app-area .model-widget .model-info:last-child {
+  margin-bottom: 0px;
+}
+.am-content.ui-app-area .model-widget .model-info .active-status {
+  display: inline-block;
+  position: relative;
+  margin-left: 4px;
+  top: -2px;
+  border: 1px solid #979797;
+  border-radius: $ui-radius;
+  padding: 1px 6px;
+  font-size: 12px;
+}
+.am-content.ui-app-area .model-widget .model-info .model-title,
+.am-content.ui-app-area .model-widget .model-info .model-studio-status {
+  display: block;
+  float: left;
+}
+.am-content.ui-app-area .model-widget .model-info .model-studio-status .model-studio-active {
+  float: right;
+  font-size: 12px;
+  border: 1px solid #979797;
+  border-radius: $ui-radius;
+  padding: 1px 6px;
+}
+.am-content.ui-app-area .model-widget .model-info .model-studio-status .model-studio-active .active {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #2FCC32;
+  border-radius: 50%;
+}
+.am-content.ui-app-area .model-widget .model-info .model-studio-status .model-studio-active .inactive {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #ff0000;
+  border-radius: 50%;
+}
+.am-content.ui-app-area .model-widget .model-img img {
+  max-width: 100%;
+  margin-bottom: 12px;
+}
+.am-content.ui-app-area .model-widget .model-info.separator {
+  padding-top: 14px;
+  border-top: 1px solid #D9D9D9;
+}
+
+/* =========================== */
+
+.am-content.ui-app-area .main-content.edit .card-body {
+  padding: 20px 15px;
+}
+
+/* =========================== */
+
+.am-content.ui-app-area .floor-widget {
+  display: block;
+  float: left;
+  position: relative;
+  background-color: $ui_white;
+  padding: 18px 20px;
+  border-radius: $ui-radius;
+  box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.25);
+  -webkit-box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.25);
+  -moz-box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.25);
+  margin-bottom: 30px;
+  width: 100%;
+}
+.am-content.ui-app-area .floor-widget .floor-container {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+.am-content.ui-app-area .floor-widget .floor-container h3 {
+  font-size: 24px;
+  border-left: 4px solid #D9DBE5;
+  padding-left: 15px;
+}
+.am-content.ui-app-area .floor-widget .floor-container .floor_title_add-edit,
+.am-content.ui-app-area .floor-widget .floor-container .floor_areas {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+.am-content.ui-app-area .floor-widget .floor-container .floor_title_add-edit {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #D9D9D9;
+  margin-bottom: 25px;
+}
+.am-content.ui-app-area .floor-widget .floor-container .floor_areas .floor_area-item {
+  display: block;
+  float: left;
+  position: relative;
+  margin-bottom: 15px;
+  width: 20%;
+  padding: 0 5px;
+}
+.am-content.ui-app-area .floor-widget .floor-container .floor_areas .floor_area-item .area-item {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0 0 6px 0 rgba(207,207,207,0.50);
+  border-radius: $ui-radius;
+}
+.am-content.ui-app-area .floor-widget .floor-container .floor_areas .floor_area-item .area-item:hover {
+  box-shadow: 0 0 14px 0 rgba(207,207,207,0.50);
+}
+.am-content.ui-app-area .floor-widget .floor-container .floor_areas .floor_area-item .area-item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding: 20px 15px;
+  color: #000;
+}
+.am-content.ui-app-area .floor-widget .floor-container .floor_areas .floor_area-item .area-item a:hover {
+  text-decoration: none;
+}
+
+.am-content.ui-app-area .model-tabs .nav.nav-tabs {
+    padding-right: 10px;
+}
+
+/* =========================== */
+
+.am-content.ui-app-area .add-block {
+  background-color: #F2F2F2;
+  border-radius: $ui-radius;
+  padding: 8px 20px;
+}
+.am-content.ui-app-area .add-block .padding-center {
+  padding: 7px 20px;
+}
+.am-content.ui-app-area .row-without-dots {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100% !important;
+  background-color: #fff;
+  padding: 12px;
+  margin-top: -16px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 6px 0 rgba(207,207,207,0.30);
+}
+.am-content.ui-app-area .card-body {
+  width: 100%;
+  padding: 30px 0;
+}
+
+/* =========================== */
+
+.am-content.ui-app-area  .page-head h2 {
+  border-left: 4px solid #D9DBE5;
+  padding-left: 12px;
+}
+
+/* =========================== */
+
+.am-content.ui-app-area .add-item {
+  display: block;
+  float: left;
+  position: relative;
+  border-top: 1px solid #D9D9D9;
+  margin-top: 5px;
+}
+.am-content.ui-app-area .add-item .add-item-container {
+  background-color: #F2F2F2;
+  border-radius: $ui-radius;
+  padding: 8px 20px;
+  margin-top: 30px;
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+.am-content.ui-app-area .add-item .add-item-container .add-text,
+.am-content.ui-app-area .add-item .add-item-container .add-btn {
+  display: block;
+  float: left;
+  position: relative;
+}
+.am-content.ui-app-area .add-item .add-item-container .add-text {
+  font-weight: 600;
+  margin-top: 5px;
+}
+.am-content.ui-app-area .add-item .add-item-container .add-btn {
+  float: right;
 }
 
 

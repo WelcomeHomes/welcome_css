@@ -77,7 +77,6 @@ $lg-paddingbottom: 60px;
 .ui-app-area h4 {
   font-size: 20px;
 }
-
 .land-app, .main-app {
   background-color: $ui_lightergray;
 }
@@ -90,6 +89,9 @@ $lg-paddingbottom: 60px;
 }
 .am-left-sidebar .sidebar-elements > li > ul {
   left: 16% !important;
+}
+.ui-app-area .no-margin {
+  margin: 0;
 }
 
 /* ====================================== */
@@ -108,9 +110,12 @@ $lg-paddingbottom: 60px;
   float: right;
   background-color: #fafafa !important;
 }
-.am-wrapper.main-app .ui-app-area .main-content,
 .am-wrapper.main-app .ui-app-area .page-head {
   padding: 20px;
+}
+.am-wrapper.main-app .ui-app-area .main-content {
+  padding: 0;
+  margin-top: 0px;
 }
 .am-navbar-header .page-title img {
   width: 84px;
