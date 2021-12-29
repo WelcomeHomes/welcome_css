@@ -21,6 +21,203 @@
   }
 }
 
+@media (min-width: 993px) {
+  .navbar-toggle {
+    display: none;
+  }
+  ul#navbar {
+    display: block;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    display: block;
+    margin-right: 40px;
+  }
+  .navbar-nav li {
+    display: block;
+    float: left;
+    position: relative;
+    margin: 0 0 0 10px;
+  }
+  .view-header .col-lg-6 {
+    width: 30%!important;
+    display: inline-block;
+    float: left;
+    position: relative;
+  }
+  .view-header .col-lg-6:last-child {
+    width: 70%!important;
+    display: inline-block;
+    float: left;
+    position: relative;
+  }
+  .land-app .main-btns .ui-menu-dots {
+    padding: 0;
+    width: 25px !important;
+  }
+  .land-app .btn.dropdown-toggle {
+    float: right;
+  }
+  .parcel-pdf-dropdown {
+    right: 0px;
+  }
+  .pagination {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+  }
+  .pagination li {
+    display: block;
+    float: left;
+    position: relative;
+    margin: 0 3px;
+  }
+  #general-stats-container .widget-area .w-25,
+  #new-properties-inner-container .block-stats-area .w-33,
+  #approval-requirements-container .block-stats-area .w-33 {
+    width: 50% !important;
+  }
+  #comparisons-inner-container .block-stats-area .w-33,
+  #comparisons-inner-container .block-stats-area .w-66 {
+    width: 100% !important;
+  }
+  .navbar {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 58px;
+    background-color: #fff;
+    z-index: 2;
+    box-shadow: 0 2px 6px 0 rgba(207,207,207,0.80);
+    top: 0;
+  }
+  .menu-app .navbar-toggle {
+    display: block;
+    position: fixed;
+    right: 10px;
+    top: 15px;
+    background-color: transparent;
+    border: none;
+    z-index: 2;
+  }
+  .navbar-nav {
+    position: absolute;
+    right: 20px;
+    top: 9px;
+  }
+  ul#navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    right: 0px;
+    top: 59px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px 0 rgba(207,207,207,0.80);
+  }
+  ul#navbar .list-group-item {
+    padding: 8px 35px;
+    background-position: left 14px top 14px !important;
+  }
+  ul#navbar .sidebar-submenu {
+    width: 100%;
+    padding-left: 24px;
+  }
+  .ui-app-area {
+    padding-top: 80px;
+  }
+  .block-stats-area .form-control,
+  .card.card-body .form-control {
+    margin-bottom: 12px;
+  }
+  #ui-tabs .dropdown {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #ui-tabs .btn.btn-select {
+    float: left !important;
+  }
+  .land-app .ui-app-area form input {
+    margin-bottom: 12px;
+  }
+  .land-app .ui-app-area .form-inline {
+    align-items: baseline;
+  }
+  .search-area form input {
+    margin-bottom: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .view-header .col-lg-6,
+  .view-header .col-lg-6:last-child {
+    width: 50%!important;
+  }
+  .view-header .col-lg-6_last-child {
+    width: 50%!important;
+  }
+  .view-header .text-right {
+    text-align: right !important;
+  }
+  #upload-csv {
+    display: none;
+  }
+  .parcel-information-block .w-75,
+  .parcel-information-block .w-25,
+  .parcel-information-block .w-10 {
+    width: 100% !important;
+  }
+  #ui-tabs .btn.btn-select {
+    width: 100%;
+  }
+  .parcel-main-info .card .list-group-item {
+    width: 32%;
+  }
+}
+
+@media (max-width: 580px) {
+  .stats-area .col-3,
+  .stats-area .col-9 {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex: auto;
+  }
+  .daily-area {
+    order: 1;
+  }
+  .general-area {
+    order: 2;
+  }
+  .search-area input[type="image"] {
+    padding: 0;
+  }
+  #general-stats-container .widget-area {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  #general-stats-container .widget-area .w-25,
+  #general-stats-container .widget-area .w-25 .widget,
+  #new-properties-inner-container .block-stats-area .w-33,
+  #new-properties-inner-container .block-stats-area .w-33 .widget,
+  #approval-requirements-container .block-stats-area .w-33,
+  #approval-requirements-container .block-stats-area .w-25,
+  #approval-requirements-container .block-stats-area .w-15 {
+    width: 100% !important;
+  }
+  .view-header .col-lg-6,
+  .view-header .col-lg-6:last-child {
+    width: 50% !important;
+  }
+  .parcel-main-info .card .list-group-item {
+    width: 100%;
+  }
+}
+
 @media (min-width: 576px) {
   .modal-dialog {
     max-width: 680px;
