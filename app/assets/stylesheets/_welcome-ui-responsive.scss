@@ -31,23 +31,23 @@
 }
 
 @media (max-width: 992px) {
-  .navbar-nav {
+  .navbar-nav.ml-auto {
     display: block;
     margin-right: 40px;
   }
-  .navbar-nav li {
+  .navbar-nav.ml-auto li {
     display: block;
     float: left;
     position: relative;
     margin: 0 0 0 10px;
   }
-  .view-header .col-lg-6 {
+  .land-app .view-header .col-lg-6 {
     width: 30%!important;
     display: inline-block;
     float: left;
     position: relative;
   }
-  .view-header .col-lg-6:last-child {
+  .land-app .view-header .col-lg-6:last-child {
     width: 70%!important;
     display: inline-block;
     float: left;
@@ -63,13 +63,13 @@
   .parcel-pdf-dropdown {
     right: 0px;
   }
-  .pagination {
+  .land-app .pagination {
     display: block;
     float: left;
     position: relative;
     width: 100%;
   }
-  .pagination li {
+  .land-app .pagination li {
     display: block;
     float: left;
     position: relative;
@@ -84,7 +84,7 @@
   #comparisons-inner-container .block-stats-area .w-66 {
     width: 100% !important;
   }
-  .navbar {
+  .land-app .navbar {
     display: block;
     position: fixed;
     width: 100%;
@@ -94,7 +94,7 @@
     box-shadow: 0 2px 6px 0 rgba(207,207,207,0.80);
     top: 0;
   }
-  .menu-app .navbar-toggle {
+  .land-app .menu-app .navbar-toggle {
     display: block;
     position: fixed;
     right: 10px;
@@ -103,12 +103,12 @@
     border: none;
     z-index: 2;
   }
-  .navbar-nav {
+  .land-app .navbar-nav {
     position: absolute;
     right: 20px;
     top: 9px;
   }
-  ul#navbar {
+  .land-app ul#navbar {
     width: 100%;
     position: fixed;
     z-index: 2;
@@ -117,11 +117,11 @@
     background-color: #fff;
     box-shadow: 0 2px 6px 0 rgba(207,207,207,0.80);
   }
-  ul#navbar .list-group-item {
+  .land-app ul#navbar .list-group-item {
     padding: 8px 35px;
     background-position: left 14px top 14px !important;
   }
-  ul#navbar .sidebar-submenu {
+  .land-app ul#navbar .sidebar-submenu {
     width: 100%;
     padding-left: 24px;
   }
@@ -215,6 +215,12 @@
   }
   .parcel-main-info .card .list-group-item {
     width: 100%;
+  }
+
+  /* =========================== */
+
+  .am-content.ui-app-area .floor-widget .floor-container .floor_areas .floor_area-item {
+    width: 33%;
   }
 }
 
