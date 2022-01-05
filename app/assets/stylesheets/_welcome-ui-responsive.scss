@@ -41,6 +41,14 @@
     position: relative;
     margin: 0 0 0 10px;
   }
+  .navbar.navbar-ui {
+    position: fixed;
+    height: 58px;
+    width: 100%;
+    background-color: #fff;
+    z-index: 2;
+    box-shadow: 0 2px 6px 0 rgba(207,207,207,0.30);
+  }
   .land-app .view-header .col-lg-6 {
     width: 30%!important;
     display: inline-block;
