@@ -1948,6 +1948,14 @@ table .ui-table-row {
 
 /* =========================== */
 
+.am-content.ui-app-area .add-item-relative {
+  display: block;
+  position: relative;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 0 15px;
+}
 .am-content.ui-app-area .add-item {
   display: block;
   position: absolute;
@@ -1959,6 +1967,7 @@ table .ui-table-row {
   left: 0;
   right: 0;
 }
+.am-content.ui-app-area .add-item-relative .add-item-container,
 .am-content.ui-app-area .add-item .add-item-container {
   background-color: #F2F2F2;
   border-radius: $ui-radius;
@@ -1970,20 +1979,83 @@ table .ui-table-row {
   width: 100%;
   box-shadow: 0 2px 6px 0 rgba(207,207,207,0.30);
 }
+.am-content.ui-app-area .add-item-relative .add-item-container .add-text,
+.am-content.ui-app-area .add-item-relative .add-item-container .add-btn,
 .am-content.ui-app-area .add-item .add-item-container .add-text,
 .am-content.ui-app-area .add-item .add-item-container .add-btn {
   display: block;
   float: left;
   position: relative;
 }
+.am-content.ui-app-area .add-item-relative .add-item-container .add-text,
 .am-content.ui-app-area .add-item .add-item-container .add-text {
   font-weight: 600;
   margin-top: 5px;
 }
+.am-content.ui-app-area .add-item-relative .add-item-container .add-btn,
 .am-content.ui-app-area .add-item .add-item-container .add-btn {
   float: right;
 }
 
+/* =========================== */
+
+.am-content.ui-app-area .group-row {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dee2e6;
+  margin-bottom: 15px;
+}
+.am-content.ui-app-area .form-buttons .btn.btn-outline-primary {
+  border-color: $ui_back;
+  color: $ui_back;
+  margin-right: 12px;
+  margin-bottom: 20px;
+  margin-top: 6px;
+  border-radius: $ui-radius;
+  padding: 6px 17px !important;
+  text-indent: -9999px;
+  background-image: image-url('icons/icn-download.svg');
+  background-repeat: no-repeat;
+  background-size: 14px;
+  background-position: top 9px left 9px;
+}
+.am-content.ui-app-area .form-buttons .btn.btn-outline-primary:hover {
+  background-color: $ui_middlegray;
+}
+.am-content.ui-app-area .form-buttons .btn.btn-outline-danger {
+  border-color: $ui_red;
+  color: $ui_back;
+  margin-right: 12px;
+  margin-bottom: 20px;
+  margin-top: 6px;
+  border-radius: $ui-radius;
+  padding: 6px 17px !important;
+  text-indent: -9999px;
+  background-image: image-url('icons/icn-trash.svg');
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: top 8px left 9px;
+}
+
+/* =========================== */
+
+.am-content.ui-app-area .model-buttons {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.am-content.ui-app-area .model-buttons .btns-left {
+  display: block;
+  float: left;
+  position: relative;
+  width: 35%;
+}
+.am-content.ui-app-area .model-buttons .btns-right {
+  display: block;
+  float: right;
+  position: relative;
+  width: 65%;
+  text-align: right;
+}
 
 
 

@@ -224,6 +224,28 @@
   .parcel-main-info .card .list-group-item {
     width: 100%;
   }
+  .am-content.ui-app-area .model-widget {
+    width: 100%;
+  }
+  .am-content.ui-app-area .page-head {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .am-content.ui-app-area .page-head .float-right {
+    display: block;
+    width: 100%;
+    position: relative;
+    margin-top: 12px;
+  }
+  .models-area {
+    display: block;
+    float: left;
+    position: relative;
+    width: 100%;
+  }
 
   /* =========================== */
 
