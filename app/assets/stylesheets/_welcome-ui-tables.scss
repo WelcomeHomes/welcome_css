@@ -642,7 +642,7 @@ table .ui-table-row {
   margin-bottom: 0;
 }
 .am-content.ui-app-area .content-lateral .table-widget {
-  margin-bottom: 40px;
+  margin-bottom: 100px;
 }
 
 /* =========================== */
@@ -1764,17 +1764,20 @@ table .ui-table-row {
   box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.25);
   -webkit-box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.25);
   -moz-box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.25);
-  margin-bottom: 30px;
-  width: 49%;
+  margin-bottom: 4px;
+  width: 32%;
   margin-top: 30px;
+  float: left;
 }
 .am-content.ui-app-area .model-widget:nth-child(odd) {
   margin-right: 5px;
-  float: left;
+  margin-left: 5px;
+  /*float: left;*/
 }
 .am-content.ui-app-area .model-widget:nth-child(even) {
   margin-left: 5px;
-  float: right;
+  margin-right: 5px;
+  /*float: right;*/
 }
 .am-content.ui-app-area .model-widget .model-info {
   display: block;
@@ -1795,6 +1798,13 @@ table .ui-table-row {
   border-radius: $ui-radius;
   padding: 1px 6px;
   font-size: 12px;
+}
+.am-content.ui-app-area .model-widget .model-info .active-status .active {
+  background-image: image-url('icons/icn-active.svg');
+  background-repeat: no-repeat;
+  background-size: 8px;
+  background-position: top 5px left 0px;
+  padding-left: 12px;
 }
 .am-content.ui-app-area .model-widget .model-info .model-title,
 .am-content.ui-app-area .model-widget .model-info .model-studio-status {
@@ -1951,7 +1961,7 @@ table .ui-table-row {
 .am-content.ui-app-area .add-item-relative {
   display: block;
   position: relative;
-  margin-top: 0px;
+  margin-top: -20px;
   margin-bottom: 30px;
   width: 100%;
   padding: 0 15px;
@@ -1963,13 +1973,14 @@ table .ui-table-row {
   margin-top: 0px;
   width: 100%;
   padding: 0 15px;
-  bottom: 0;
+  bottom: 20px;
   left: 0;
   right: 0;
 }
 .am-content.ui-app-area .add-item-relative .add-item-container,
 .am-content.ui-app-area .add-item .add-item-container {
-  background-color: #F2F2F2;
+  /*background-color: #F2F2F2;*/
+  background-color: $ui_white;
   border-radius: $ui-radius;
   padding: 8px 20px;
   margin-top: 0px;
@@ -1977,7 +1988,10 @@ table .ui-table-row {
   float: left;
   position: relative;
   width: 100%;
-  box-shadow: 0 2px 6px 0 rgba(207,207,207,0.30);
+  box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.30);
+  -webkit-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.30);
+  -moz-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.30);
+  border: 1px solid #D9D9D9;
 }
 .am-content.ui-app-area .add-item-relative .add-item-container .add-text,
 .am-content.ui-app-area .add-item-relative .add-item-container .add-btn,
@@ -1999,10 +2013,57 @@ table .ui-table-row {
 
 /* =========================== */
 
+.am-content.ui-app-area .model-items-container {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.am-content.ui-app-area .model-items-container .model-widget.model-intern-item {
+  width: 24%;
+  /*min-height: 270px;*/
+}
+.am-content.ui-app-area .model-widget.model-intern-item:nth-child(odd) {
+  margin-right: 0;
+  margin-left: 3px;
+}
+.am-content.ui-app-area .model-widget.model-intern-item:nth-child(even) {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.am-content.ui-app-area .model-items-container .model-widget.model-intern-item img {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+/* =========================== */
+
 .am-content.ui-app-area .group-row {
   padding-bottom: 10px;
   border-bottom: 1px solid #dee2e6;
   margin-bottom: 15px;
+}
+.am-content.ui-app-area form .form-control-file {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 110px;
+  margin-bottom: 12px;
+  text-align: center;
+  text-indent: -9999px;
+  background: #FBFBFB;
+  border: 1px dashed #D9D9D9;
+  background-image: image-url('icons/icn-add-file.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.am-content.ui-app-area form #file-upload-button {
+  background-color: #ffaaaa !important;
 }
 .am-content.ui-app-area .form-buttons .btn.btn-outline-primary {
   border-color: $ui_back;
@@ -2036,6 +2097,10 @@ table .ui-table-row {
   background-position: top 8px left 9px;
 }
 
+.am-content.ui-app-area .model-widget .btn {
+  padding: 5px 7px;
+}
+
 /* =========================== */
 
 .am-content.ui-app-area .model-buttons {
@@ -2043,17 +2108,21 @@ table .ui-table-row {
   position: relative;
   width: 100%;
 }
+.am-content.ui-app-area .model-buttons .btn {
+  font-size: 14px !important;
+  margin-bottom: 5px;
+}
 .am-content.ui-app-area .model-buttons .btns-left {
   display: block;
   float: left;
   position: relative;
-  width: 35%;
+  width: 40%;
 }
 .am-content.ui-app-area .model-buttons .btns-right {
   display: block;
   float: right;
   position: relative;
-  width: 65%;
+  width: 60%;
   text-align: right;
 }
 
