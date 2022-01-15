@@ -137,11 +137,13 @@
 /* ========================================= */
 
 .btn-duplicate {
-  padding: 6px 12px 6px 26px !important;
+  padding: 4px 17px !important;
+  text-indent: -9999px;
   background-image: image-url('icons/icn-duplicate.svg');
   background-repeat: no-repeat;
-  background-size: 12px;
-  background-position: top 10px left 9px;
+  background-size: 14px;
+  background-position: top 8px left 9px;
+  background-color: $ui_white;
 }
 .btn-edit {
   padding: 6px 17px !important;
@@ -152,7 +154,8 @@
   background-position: top 8px left 9px;
   background-color: $ui_white;
 }
-.btn-delete {
+.btn-delete,
+.new-involved-theme .btn.btn-outline-danger {
   padding: 6px 17px !important;
   text-indent: -9999px;
   background-image: image-url('icons/icn-trash.svg');
@@ -160,6 +163,25 @@
   background-size: 16px;
   background-position: top 8px left 9px;
   background-color: $ui_white;
+}
+.btn-full-card {
+  display: block;
+  border: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent !important;
+  text-indent: -9999px !important;
+}
+
+/* ========================================= */
+
+.btn.btn-right {
+  float: right;
 }
 
 /* ========================================= */

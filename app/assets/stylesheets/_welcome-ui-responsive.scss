@@ -286,6 +286,19 @@
   .am-content.ui-app-area .model-items-container .model-widget.model-intern-item {
     width: 32%;
   }
+
+  /* =========================== */
+
+  .fields-group .col-2,
+  .fields-group .col-3,
+  .fields-group .col-4,
+  .fields-group .col-5,
+  .fields-group .col-6,
+  .fields-group .col-7 {
+    width: 100%;
+    max-width: 100%;
+    flex: auto;
+  }
 }
 
 @media (max-width: 460px) {
@@ -296,6 +309,14 @@
   .am-content.ui-app-area .model-items-container .model-widget.model-intern-item {
     width: 100%;
     margin-bottom: 15px;
+  }
+  .am-content.ui-app-area .model-buttons .btns-left,
+  .am-content.ui-app-area .model-buttons .btns-right {
+    width: 50% !important;
+  }
+  .am-content.ui-app-area .model-buttons .btns-right {
+    float: right;
+    text-align: right;
   }
 }
 

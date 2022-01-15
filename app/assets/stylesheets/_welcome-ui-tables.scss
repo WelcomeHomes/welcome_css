@@ -119,6 +119,11 @@ table .ui-table-row {
 
 /* =========================== */
 
+.am-content.ui-app-area .block {
+  display: block;
+  float: left;
+  position: relative;
+}
 .ui-app-area .dropdown-toggle::after {
   display: none;
 }
@@ -1562,6 +1567,12 @@ table .ui-table-row {
   padding-left: 0;
   padding-right: 0;
 }
+.am-wrapper .breadcrumb-area.small-breadcrumb {
+  display: block;
+  float: left;
+  position: relative;
+  width: auto;
+}
 .breadcrumb {
   color: #6c757d;
 }
@@ -2057,27 +2068,32 @@ table .ui-table-row {
   text-align: center;
   text-indent: -9999px;
   background: #FBFBFB;
-  border: 1px dashed #D9D9D9;
-  background-image: image-url('icons/icn-add-file.svg');
+  border: 2px dashed #D9D9D9;
+  background-image: image-url('icons/icn-browse.svg');
   background-repeat: no-repeat;
   background-position: center;
 }
 .am-content.ui-app-area form #file-upload-button {
   background-color: #ffaaaa !important;
 }
+.am-content.ui-app-area .form-buttons {
+  float: right;
+  text-align: right;
+}
 .am-content.ui-app-area .form-buttons .btn.btn-outline-primary {
   border-color: $ui_back;
   color: $ui_back;
-  margin-right: 12px;
+  margin-right: 10px;
   margin-bottom: 20px;
   margin-top: 6px;
   border-radius: $ui-radius;
-  padding: 6px 17px !important;
+  padding: 5px 14px !important;
   text-indent: -9999px;
   background-image: image-url('icons/icn-download.svg');
   background-repeat: no-repeat;
-  background-size: 14px;
-  background-position: top 9px left 9px;
+  background-size: 12px;
+  background-position: top 9px left 7px;
+  height: 32px;
 }
 .am-content.ui-app-area .form-buttons .btn.btn-outline-primary:hover {
   background-color: $ui_middlegray;
@@ -2085,16 +2101,17 @@ table .ui-table-row {
 .am-content.ui-app-area .form-buttons .btn.btn-outline-danger {
   border-color: $ui_red;
   color: $ui_back;
-  margin-right: 12px;
+  margin-right: 0;
   margin-bottom: 20px;
   margin-top: 6px;
   border-radius: $ui-radius;
-  padding: 6px 17px !important;
+  padding: 5px 14px !important;
   text-indent: -9999px;
   background-image: image-url('icons/icn-trash.svg');
   background-repeat: no-repeat;
-  background-size: 16px;
-  background-position: top 8px left 9px;
+  background-size: 13px;
+  background-position: top 8px left 8px;
+  height: 32px;
 }
 
 .am-content.ui-app-area .model-widget .btn {
@@ -2124,6 +2141,105 @@ table .ui-table-row {
   position: relative;
   width: 60%;
   text-align: right;
+}
+
+/* =========================== */
+
+.am-content.ui-app-area .small-container {
+  display: block;
+  float: left;
+  width: 100%;
+  max-width: 990px;
+}
+.am-content.ui-app-area .form-card {
+  display: block;
+  float: left;
+  width: 100%;
+  position: relative;
+  word-wrap: break-word;
+  background-color: transparent;
+  border: none;
+  max-width: 990px;
+}
+.am-content.ui-app-area .form-card form .row {
+  margin-bottom: 14px;
+}
+.am-content.ui-app-area .form-card .simple_form {
+  padding: 0;
+}
+.am-content.ui-app-area .fields-group {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  padding: 20px 20px 2px 20px;
+  background-color: $ui_white;
+  border: 1px solid #d9d9d9;
+  border-radius: $ui-radius;
+  margin-bottom: 30px;
+}
+.am-content.ui-app-area .fields-group-title .h5 {
+  font-size: 18px;
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+.am-content.ui-app-area .view-head {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #d9d9d9;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 20px 0 !important;
+}
+.am-content.ui-app-area .view-head h2 {
+  border-left: 4px solid #D9DBE5;
+  padding-left: 12px;
+}
+.am-content.ui-app-area .fields-group .table-responsive {
+  padding: 0;
+}
+.am-content.ui-app-area .fields-group .table-responsive table {
+  border: 1px solid #d9d9d9;
+  box-shadow: none;
+  border-radius: $ui-radius;
+}
+.am-content.ui-app-area .model_gallery_images label {
+  display: none;
+}
+.am-content.ui-app-area .fields-group .img-fluid {
+  width: 100%;
+}
+.am-content.ui-app-area .row-with-separation {
+  border: 1px solid #d9d9d9;
+  margin: 0;
+  padding: 10px 0;
+}
+.am-content.ui-app-area .involved-theme {
+  border: 1px solid #dee2e6;
+  padding: 10px 0 0 0;
+  border-radius: $ui-radius;
+  margin: 0 0 20px 0;
+}
+.am-content.ui-app-area .involved-theme:last-child {
+  margin: 0;
+}
+.am-content.ui-app-area .involved-theme .delete-right {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+}
+.am-content.ui-app-area .involved-theme .delete-right select {
+  width: calc(100% - 44px) !important;
+}
+.am-content.ui-app-area .involved-theme .delete-right .btn-outline-danger {
+  position: absolute;
+  right: 15px;
+  top: 32px;
+  height: 37px;
+  width: 34px;
 }
 
 
