@@ -48,6 +48,13 @@
     float: left;
     margin-top: 6px;
   }
+  .am-content.ui-app-area .model-widget:nth-child(odd) {
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+  .am-content.ui-app-area .model-widget .model-info .model-title {
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 992px) {
@@ -253,7 +260,7 @@
     width: 100%;
   }
   .am-content.ui-app-area .model-widget {
-    width: 48%;
+    width: 100%;
   }
   .am-content.ui-app-area .model-widget:nth-child(odd) {
     margin-right: 3px;

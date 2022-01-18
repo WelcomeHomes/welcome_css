@@ -1800,11 +1800,19 @@ table .ui-table-row {
 .am-content.ui-app-area .model-widget .model-info:last-child {
   margin-bottom: 0px;
 }
-.am-content.ui-app-area .model-widget .model-info .active-status {
-  display: inline-block;
+.am-content.ui-app-area .model-widget .model-info b {
+  display: block;
+  float: left;
   position: relative;
-  margin-left: 4px;
-  top: -2px;
+  width: 100%;
+}
+.am-content.ui-app-area .model-widget .model-info .active-status {
+  display: block;
+  float: left;
+  position: relative;
+  margin-left: 0;
+  margin-right: 4px;
+  top: 0;
   border: 1px solid #979797;
   border-radius: $ui-radius;
   padding: 1px 6px;
