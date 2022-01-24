@@ -1825,10 +1825,14 @@ table .ui-table-row {
   background-position: top 5px left 0px;
   padding-left: 12px;
 }
-.am-content.ui-app-area .model-widget .model-info .model-title,
-.am-content.ui-app-area .model-widget .model-info .model-studio-status {
+.am-content.ui-app-area .model-widget .model-info .model-title {
   display: block;
   float: left;
+  margin-bottom: 6px;
+}
+.am-content.ui-app-area .model-widget .model-info .model-studio-status {
+  display: block;
+  float: right;
 }
 .am-content.ui-app-area .model-widget .model-info .model-studio-status .model-studio-active {
   float: right;
@@ -2248,6 +2252,43 @@ table .ui-table-row {
   top: 32px;
   height: 37px;
   width: 34px;
+}
+
+/* =========================== */
+
+.am-content.ui-app-area .form-img-container {
+  padding: 15px;
+  background-color: #eaeaea;
+  height: 160px;
+}
+.am-content.ui-app-area .form-img-container .img-fluid {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.am-content.ui-app-area .img-btns {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  background-color: $ui_white;
+  padding: 2px 6px 8px;
+  border-radius: $ui-radius;
+  box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.30);
+  -webkit-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.30);
+  -moz-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.30);
+}
+.am-content.ui-app-area .img-btns .btn.btn-outline-danger {
+  padding: 5px 12px !important;
+  background-position: top 8px left 6px;
+  margin-bottom: 0;
+}
+.am-content.ui-app-area .img-btns .btn.btn-outline-primary {
+  padding: 5px 12px !important;
+  background-position: top 9px left 5px;
+  margin-bottom: 0;
+}
+.am-content.ui-app-area .modal-dialog .img-btns .btn-outline-danger {
+  width: 27px;
 }
 
 
