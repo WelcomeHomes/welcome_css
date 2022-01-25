@@ -221,6 +221,9 @@
   .parcel-main-info .card .list-group-item {
     width: 32%;
   }
+  .land-app .ui-app-area .filter-block .w-50 {
+    width: 100% !important;
+  }
 }
 
 @media (max-width: 580px) {
@@ -305,6 +308,25 @@
     width: 100%;
     max-width: 100%;
     flex: auto;
+  }
+
+  /* =========================== */
+  .land-app .ui-app-area .small-tabs .px-4,
+  .land-app .ui-app-area .small-tabs .py-4 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  .land-app .ui-app-area .full-block .full-block-content .w-20,
+  .land-app .ui-app-area .full-block .full-block-content .w-25,
+  .land-app .ui-app-area .full-block .full-block-content .w-33,
+  .land-app .ui-app-area .full-block .full-block-content .w-50,
+  .land-app .ui-app-area .full-block .full-block-content .w-75,
+  .land-app .ui-app-area .full-block .full-block-content .w-80 {
+    width: 100% !important;
+    margin-bottom: 6px;
+  }
+  .land-app .ui-app-area .full-block .full-block-content .w-20 {
+    margin-bottom: 15px;
   }
 }
 

@@ -286,3 +286,26 @@
   right: 60px;
   top: 0;
 }
+
+/* ========================================= */
+/* Links */
+
+.link-icon {
+  color: #4A8FE7;
+  background-image: image-url('icons/icn-link.svg');
+  background-repeat: no-repeat;
+  background-size: 12px;
+  background-position: left 0px top 5px;
+  padding-left: 18px;
+}
+.link-icon:hover {
+  cursor: pointer;
+}
+.simple-link {
+  color: #4A8FE7;
+  background-color: transparent;
+  border: none;
+  font-weight: normal;
+  padding: 0;
+  margin: 0 5px;
+}

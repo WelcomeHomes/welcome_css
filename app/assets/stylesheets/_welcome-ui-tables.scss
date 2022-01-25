@@ -1296,6 +1296,75 @@ table .ui-table-row {
   margin-bottom: 0;
 }
 
+.land-app .ui-app-area .no-border {
+  border: none !important;
+}
+
+/* =========================== */
+
+.land-app .ui-app-area .block {
+  display: block;
+  float: left;
+  position: relative;
+}
+.land-app .ui-app-area .full-block {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  background-color: $ui_white;
+  padding: 18px 20px 0px 20px;
+  margin-bottom: 30px;
+  border-radius: $ui_radius;
+  -webkit-box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.15);
+     -moz-box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.15);
+          box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.15);
+}
+.land-app .ui-app-area .full-block .full-block-content {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  word-break: break-all;
+}
+.land-app .ui-app-area .full-block .full-block-content .w-20,
+.land-app .ui-app-area .full-block .full-block-content .w-25,
+.land-app .ui-app-area .full-block .full-block-content .w-33,
+.land-app .ui-app-area .full-block .full-block-content .w-50,
+.land-app .ui-app-area .full-block .full-block-content .w-75,
+.land-app .ui-app-area .full-block .full-block-content .w-80 {
+ padding-right: 5px; 
+}
+.land-app .ui-app-area .full-block .full-block-content:last-child {
+  margin-bottom: 0px;
+}
+.land-app .ui-app-area .full-block .ui-menu-dots {
+  display: block;
+  position: absolute;
+  right: 18px;
+  top: 12px;
+}
+.land-app .ui-app-area .full-block .ui-menu-dots .dropdown {
+  text-align: right;
+}
+.land-app .ui-app-area .small-tabs .nav-link,
+.land-app .ui-app-area .small-tabs .nav-item {
+  flex: inherit !important;
+  text-align: center;
+  padding: 10px 22px !important;
+}
+.land-app .ui-app-area #ui-tabs.small-tabs  .nav-tabs {
+  border-bottom: 1px solid #D8DBE5;
+}
+.land-app .ui-app-area #ui-tabs.small-tabs .tab-content {
+  margin-top: 0px;
+}
+.land-app .ui-app-area .block .select2 {
+  width: 100% !important;
+}
+
 /* =========================== */
 /* Land App - Daily Stats */
 
@@ -2179,7 +2248,8 @@ table .ui-table-row {
 .am-content.ui-app-area .form-card .simple_form {
   padding: 0;
 }
-.am-content.ui-app-area .fields-group {
+.am-content.ui-app-area .fields-group,
+.land-app .ui-app-area .fields-group  {
   display: block;
   float: left;
   position: relative;
@@ -2189,6 +2259,22 @@ table .ui-table-row {
   border: 1px solid #d9d9d9;
   border-radius: $ui-radius;
   margin-bottom: 30px;
+}
+.land-app .ui-app-area .modal-dialog .fields-group  {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 0px;
+}
+.land-app .ui-app-area .fields-group .row {
+  margin-bottom: 30px;
+}
+.land-app .ui-app-area .fields-group .row .select2 {
+  width: 100% !important;
 }
 .am-content.ui-app-area .fields-group-title .h5 {
   font-size: 18px;
