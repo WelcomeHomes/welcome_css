@@ -74,6 +74,31 @@ $lg-paddingbottom: 60px;
 
 /* ====================================== */
 
+$ui-shadow: 1px -1px 13px 0px rgba(174,174,174,0.15);
+$ui-shadow-right: 0 0 15px rgba(174,174,174,0.15%);
+
+/* ====================================== */
+
+$header-title: 22px;
+
+/* ====================================== */
+
+$block-title: 16px;
+$block-title-color: #000;
+$block-secondary-title: 14px;
+$block-secondary-title-color: #787878;
+$block-result: 18px;
+$block-result-color: #000;
+
+/* ====================================== */
+
+.inline-flex {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
 .ui-app-area h4 {
   font-size: 20px;
 }

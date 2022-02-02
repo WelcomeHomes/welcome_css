@@ -120,7 +120,7 @@
     width: 100% !important;
   }
   .land-app .navbar {
-    display: block;
+    display: none;
     position: fixed;
     width: 100%;
     height: 58px;
@@ -163,6 +163,10 @@
   .ui-app-area {
     padding-top: 80px;
   }
+  .menu-app {
+    position: fixed;
+    z-index: 9999;
+  }
   .block-stats-area .form-control,
   .card.card-body .form-control {
     margin-bottom: 12px;
@@ -193,6 +197,10 @@
   .am-content.ui-app-area .model-buttons .btns-right {
     float: left;
     text-align: left;
+  }
+  .white-header .col-lg-7,
+  .white-header .col-lg-5 {
+    width: 50%;
   }
 }
 

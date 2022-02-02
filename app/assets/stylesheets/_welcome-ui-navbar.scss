@@ -1,6 +1,9 @@
 // Variables
 // Welcome UI - Navbar
 
+ul#navbar {
+  float: left;
+}
 .navbar-ui {
   border-bottom: 1px solid $ui_lightergray;
 }

@@ -7,13 +7,44 @@
   width: 100%;
   padding: 15px 0;
 }
+.logo-area {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 56px;
+  border-bottom: 1px solid #eaeaea;
+}
+.logo-area .welcome-homes-logo {
+  width: 140px;
+  margin-bottom: 20px;
+  margin-top: 18px;
+  margin-left: 12px;
+}
 .land-app .view-header {
   border-bottom: 1px solid $ui_lightgray;
   /*background-color: $ui_middlegray;*/
-  margin-bottom: 15px;
+  margin-bottom: 30px;
   width: 100%;
   padding: 15px 0 15px 10px;
 }
+.land-app .white-header {
+  border-bottom: none;
+  background-color: $ui_white;
+  /*margin-bottom: 30px;*/
+  width: 100%;
+  padding: 20px 15px;
+  box-shadow: $ui-shadow;
+}
+
+/* =========================== */
+
+.land-app .s-font {
+  font-size: 14px;
+}
+
+/* =========================== */
+
 .view-header .btn.btn-group {
   display: contents;
 }
@@ -181,12 +212,33 @@ table .ui-table-row {
 }
 
 /* =========================== */
+/* Table Area Titles */
+
+.land-app .view-header h3,
+.land-app .white-header h3 {
+  font-size: $header-title;
+}
+.land-app .card-header h4 {
+  font-size: $block-title;
+  color: $block-title-color;
+}
+.land-app .s-title {
+  font-size: $block-secondary-title;
+  color: $block-secondary-title-color;
+}
+.land-app .block-result {
+  font-size: $block-result;
+  color: $block-result-color;
+  font-weight: bold;
+}
+
+/* =========================== */
 
 .land-app .parcel-information-block {
   display: block;
   width: 100%;
   border-bottom: 1px solid #D9D9D9;
-  padding: 15px;
+  padding: 15px 15px 0 15px;
   margin-left: 15px;
   margin-right: 15px;
 }
@@ -233,6 +285,29 @@ table .ui-table-row {
 
 /* =========================== */
 
+.ui-app-area .list-group .list-group-item {
+  display: block;
+}
+
+/* =========================== */
+
+.small-navbar {
+  display: block;
+  float: right;
+  position: relative;
+  background-color: $ui_white;
+  width: auto;
+  padding: 1px 12px;
+  margin-top: -22px;
+  margin-right: -15px;
+  box-shadow: $ui-shadow;
+}
+.small-navbar li {
+  display: inline-block;
+}
+
+/* =========================== */
+
 .parcel-main-info {
   display: block;
   float: left;
@@ -258,7 +333,8 @@ table .ui-table-row {
   border: none;
   width: 33%;
   padding-left: 0 !important;
-  display: inline-block !important;
+  display: block !important;
+  float: left;
 }
 .parcel-main-info.site-plan .img-fluid {
   max-width: 50px;

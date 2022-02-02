@@ -3,6 +3,8 @@
 
 .menu-app {
   background-color: $ui_white;
+  box-shadow: $ui-shadow-right;
+  border-right: 1px solid #D9D9D9;
 }
 .menu-app .list-group-item {
   border: none;
