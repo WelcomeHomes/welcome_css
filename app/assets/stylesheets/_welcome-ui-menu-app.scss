@@ -3,14 +3,15 @@
 
 .menu-app {
   background-color: $ui_white;
-  box-shadow: $ui-shadow-right;
+  /*box-shadow: $ui-shadow-right;*/
   border-right: 1px solid #D9D9D9;
 }
 .menu-app .list-group-item {
   border: none;
   font-size: $ui_font_normal;
   border-left: 2px solid $ui_white;
-  font-family: 'hk-grotesk-semibold';
+  /*font-family: 'hk-grotesk-semibold';*/
+  font-family: 'nunitosans-bold';
 }
 .menu-app .list-group-item-action:hover,
 .menu-app .list-group-item-action:focus {

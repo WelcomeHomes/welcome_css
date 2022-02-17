@@ -204,6 +204,12 @@
   }
 }
 
+@media (min-width: 769px) {
+  .navbar .logo-area {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .view-header .col-lg-6,
   .view-header .col-lg-6:last-child {
@@ -231,6 +237,22 @@
   }
   .land-app .ui-app-area .filter-block .w-50 {
     width: 100% !important;
+  }
+  .am-left-sidebar {
+    padding-top: 55px !important;
+  }
+  .am-left-sidebar .logo-area {
+    display: none;
+  }
+  label[data-function*=swipe] {
+    z-index: 9999999;
+  }
+  .am-navbar-header {
+    width: 150px;
+  }
+  .am-content.ui-app-area .floor-widget .floor-container .floor_areas .floor_area-item,
+  .am-content.ui-app-area .block-widget .blocks-container .blocks_areas .block_area-item {
+    width: 25%;
   }
 }
 
@@ -319,6 +341,7 @@
   }
 
   /* =========================== */
+
   .land-app .ui-app-area .small-tabs .px-4,
   .land-app .ui-app-area .small-tabs .py-4 {
     padding-left: 0 !important;
@@ -335,6 +358,12 @@
   }
   .land-app .ui-app-area .full-block .full-block-content .w-20 {
     margin-bottom: 15px;
+  }
+
+  /* =========================== */
+
+  .ui-app-area .table-item {
+    width: 32%;
   }
 }
 
@@ -354,6 +383,12 @@
   .am-content.ui-app-area .model-buttons .btns-right {
     float: right;
     text-align: right;
+  }
+
+  /* =========================== */
+
+  .ui-app-area .table-item {
+    width: 48%;
   }
 }
 

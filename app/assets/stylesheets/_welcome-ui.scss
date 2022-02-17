@@ -1,28 +1,64 @@
 // Variables
 
 /* ====================================== */
-// Welcome UI Fonts
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FAFAFA !important;
 }
+
+/* ====================================== */
+// Welcome UI - Fonts
+
+.s-text {
+  font-size: 14px;
+}
+$s-text: 14px;
+
+.m-text {
+  font-size: 18px;
+}
+$m-text: 18px;
+
+.l-text {
+  font-size: 22px;
+}
+$l-text: 22px;
+
+.text-bold {
+  font-weight: 600;
+}
+$text-bold: 600;
 
 $ui_font_small: 14px;
 $ui_font_normal: 16px;
 
+/* --------------- */
+
 h1, h2, h3, h4 {
-  font-family: 'gt-eesti-regular';
+  /*font-family: 'gt-eesti-regular';*/
+  font-family: 'gilroy-bold';
 }
 .ui-app-area {
-  font-family: 'hk_groteskmedium';
+  /*font-family: 'hk_groteskmedium';*/
+  font-family: 'nunitosans-regular';
 }
 .ui-app-area strong {
-  font-family: 'hk_groteskbold';
+  /*font-family: 'hk_groteskbold';*/
+  font-family: 'nunitosans-bold';
+}
+
+/* --------------- */
+
+.am-content.ui-app-area .page-head h2 {
+  font-family: 'gilroy-bold';
+  font-size: 26px;
+  line-height: 32px;
 }
 
 /* ====================================== */
-// Welcome UI Colors
+// Welcome UI - Colors
 
 $ui_back:          #000000 !important;
 $ui_white:         #ffffff !important;
@@ -58,28 +94,97 @@ $ui-radius: .25rem !important;
 // Welcome UI - Margin & Padding
 
 $sm-margintop: 10px;
+$s-mt: 5px;
+
 $sm-marginbottom: 10px;
+$s-mb: 5px;
 
 $md-margintop: 30px;
+$m-mt: 15px;
+
 $md-marginbottom: 30px;
+$m-mb: 15px;
 
 $lg-margintop: 60px;
+$l-mt: 30px;
+
 $lg-marginbottom: 60px;
+$l-mb: 30px;
+
+$sm-paddingtop: 5px;
+$s-pt: 5px;
 
 $md-paddingtop: 30px;
-$md-paddingbottom: 30px;
+$m-pt: 15px;
 
 $lg-paddingtop: 60px;
+$l-pt: 30px;
+
+$sm-paddingbottom: 10px;
+$s-pb: 5px;
+
+$md-paddingbottom: 30px;
+$m-pb: 15px;
+
 $lg-paddingbottom: 60px;
+$l-pb: 30px;
+
+$s-padding: 20px 15px;
+$m-padding: 30px 30px;
+$l-padding: 60px 60px;
 
 /* ====================================== */
+// Welcome UI - Buttons & Effects
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+/* ====================================== */
+// Welcome UI - Hide & Show
+
+@media (max-width: 992px) {
+  .no-responsive {
+    display: none !important;
+  }
+}
+
+/* ====================================== */
+// Welcome UI - Shadows
 
 $ui-shadow: 1px -1px 13px 0px rgba(174,174,174,0.15);
+.shadow {
+  box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.15);
+}
+
+$ui-light-shadow: 1px -1px 7px 0px rgba(174,174,174,0.05);
+.light-shadow {
+  box-shadow: 1px -1px 7px 0px rgba(174,174,174,0.05);
+}
+
 $ui-shadow-right: 0 0 15px rgba(174,174,174,0.15%);
+.right-shadow {
+  box-shadow: 0 0 15px rgba(174,174,174,0.15%);
+}
 
 /* ====================================== */
+// Welcome UI - Block text sizes
 
 $header-title: 22px;
+
+/* ====================================== */
+// Welcome UI - Blocks
+
+.simple-block {
+  display: block;
+  float: left;
+  position: relative;
+  background-color: $ui_white;
+  padding: $s-padding;
+}
+.rounded {
+  border-radius: $ui-radius;
+}
 
 /* ====================================== */
 
@@ -98,12 +203,17 @@ $block-result-color: #000;
   margin-right: -15px;
   margin-left: -15px;
 }
-
 .ui-app-area h4 {
   font-size: 20px;
 }
 .land-app, .main-app {
   background-color: $ui_lightergray;
+}
+.main-app {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
 }
 .land-app .main-btns .ui-menu-dots {
   display: block;
@@ -118,25 +228,44 @@ $block-result-color: #000;
 .ui-app-area .no-margin {
   margin: 0;
 }
+.ui-app-area .no-padding {
+  padding: 0;
+}
 
 /* ====================================== */
 
 .am-wrapper.main-app .menu-app {
   width: 16%;
+  position: absolute;
+  top: 0;
 }
 .am-wrapper.main-app .navbar {
   background-color: $ui_white;
-  height: 58px;
+  height: 40px;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.05%);
+  display: block;
+  float: right;
+  position: relative;
+  width: auto;
+  top: 6px;
+  right: 15px;
+  padding: 4px 0px 0px 0px;
+  margin-bottom: 4px;
 }
 .am-wrapper.main-app .ui-app-area {
   padding: 15px;
   width: 84%;
   float: right;
-  background-color: #fafafa !important;
+  position: absolute;
+  margin: 0;
+  display: block;
+  right: 0;
+  top: 42px;
+  /*background-color: #fafafa !important;*/
 }
 .am-wrapper.main-app .ui-app-area .page-head {
   padding: 20px;
+  margin-bottom: 30px;
 }
 .am-wrapper.main-app .ui-app-area .main-content {
   padding: 0;
@@ -281,7 +410,7 @@ $block-result-color: #000;
   position: relative;
   height: auto;
   width: 100%;
-  padding: 0 0 0 30px;
+  padding: 0 0 0 22px;
 }
 .am-left-sidebar .sidebar-elements > li > ul >
 .nav-items .am-scroller .content {
@@ -370,7 +499,10 @@ $block-result-color: #000;
 }
 @media (min-width: 769px) {
   input[type="radio"]#swipe, input[type="checkbox"]#swipe {
-    display: none; 
+    display: none;
+  }
+  .navbar .welcome-homes-logo {
+    display: none;
   }
 }
 @media (max-width: 768px) {
@@ -383,6 +515,17 @@ $block-result-color: #000;
   .am-wrapper.main-app .navbar {
     height: 50px;
     display: block;
+    width: 100%;
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
+  .navbar .welcome-homes-logo {
+    display: block;
+    margin-top: 12px !important;
+  }
+  .navbar .logo-area {
+    border-bottom: none;
   }
   .am-top-header {
     position: fixed !important;
@@ -395,7 +538,7 @@ $block-result-color: #000;
   }
   .am-wrapper.main-app .ui-app-area {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
     display: block;
   }
   .am-wrapper.main-app .menu-app {

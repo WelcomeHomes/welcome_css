@@ -10,5 +10,44 @@ ul#navbar {
 .navbar-ui .nav-link {
   color: $ui_back;
   font-size: $ui_font_small;
-  font-family: 'hk-grotesk-semibold';
+  /*font-family: 'hk-grotesk-semibold';*/
+  font-family: 'nunitosans-bold';
+}
+
+.alert-msg {
+  position: fixed;
+  top: 6px;
+  right: 12px;
+  left: auto;
+  z-index: 1030;
+  background-color: #EBF7EE;
+  border: 1px solid #C0E3CA;
+  width: 292px !important;
+  padding: 19px 20px;
+  font-size: 14px;
+}
+.am-top-header .col-6:first-child {
+  display: none;
+}
+.col-6.admin-options {
+  max-width: 100%;
+  width: 100%;
+  flex: auto;
+}
+.navbar-nav.am-icons-nav {
+  position: absolute;
+  left: -12px;
+}
+
+@media (max-width: 768px) {
+  .am-top-header .col-6:first-child {
+    display: block;
+  }
+  .navbar-nav.am-icons-nav {
+    position: fixed;
+    left: unset;
+  }
+  .am-left-sidebar .am-logo {
+    display: none !important;
+  }
 }
