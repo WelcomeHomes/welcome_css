@@ -16,6 +16,16 @@
          asset-url('HK-Grotesk/Bold/HKGrotesk-Bold.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'nunitosans-bold';
+    src: asset-url('nunito/bold/nunitosans-bold.woff2') format('woff2'),
+         asset-url('nunito/bold/nunitosans-bold.woff') format('woff'),
+         asset-url('nunito/bold/nunitosans-bold.ttf') format('truetype'),
+         asset-url('nunito/bold/nunitosans-bold.svg#nunitosans-bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 /* ================================ */
 
 @font-face {

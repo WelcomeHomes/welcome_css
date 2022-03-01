@@ -112,7 +112,7 @@ table .ui-table-row {
   /*background-color: #edeff4;*/
   background-color: $ui_white;
   /*border-bottom: 1px solid #000;*/
-  font-family: 'nunitosans-bold';
+  font-family: 'nunitosans-semibold';
 }
 .ui-table table {
   background-color: $ui_white;
@@ -126,7 +126,7 @@ table .ui-table-row {
   font-family: 'nunitosans-regular';
 }
 .ui-table td a {
-  font-family: 'nunitosans-bold';
+  font-family: 'nunitosans-semibold';
 }
 .ui-table .ui-sort {
   color: $ui_back;
@@ -2130,6 +2130,18 @@ table .ui-table-row {
 
 /* =========================== */
 
+.am-content.ui-app-area .block-pill {
+  float: left;
+  position: relative;
+  width: 100%;
+  background-color: #F6F8FA;
+  border-radius: 4px;
+  padding: 8px 15px 12px 15px;
+  margin-bottom: 20px !important;
+}
+
+/* =========================== */
+
 .am-content.ui-app-area .main-content.edit .card-body {
   padding: 20px 15px;
 }
@@ -2471,7 +2483,7 @@ table .ui-table-row {
   float: left;
   position: relative;
   width: 100%;
-  padding: 20px 20px 2px 20px;
+  padding: 15px 20px 8px 20px;
   background-color: $ui_white;
   border: 1px solid #d9d9d9;
   border-radius: $ui-radius;

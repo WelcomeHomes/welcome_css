@@ -11,7 +11,7 @@ ul#navbar {
   color: $ui_back;
   font-size: $ui_font_small;
   /*font-family: 'hk-grotesk-semibold';*/
-  font-family: 'nunitosans-bold';
+  font-family: 'nunitosans-semibold';
 }
 
 .alert-msg {
@@ -49,5 +49,14 @@ ul#navbar {
   }
   .am-left-sidebar .am-logo {
     display: none !important;
+  }
+  .am-wrapper.main-app .ui-app-area.construction-area {
+    width: 100%;
+    padding: 0;
+    position: fixed;
+    z-index: 9999;
+  }
+  .am-wrapper.main-app .ui-app-area.construction-area nav {
+    height: 50px !important;
   }
 }
