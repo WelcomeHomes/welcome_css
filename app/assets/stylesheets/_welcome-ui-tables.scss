@@ -243,6 +243,20 @@ table .ui-table-row {
 }
 
 /* =========================== */
+
+.ui-app-area .block-pill {
+  color: #000;
+  background-color: #edeff4;
+  border: 1px solid #edeff4;
+  border-radius: 4px !important;
+  display: block;
+  float: left;
+  position: relative;
+  font-size: 16px;
+  padding: 6px 14px;
+}
+
+/* =========================== */
 /* Table Area Titles */
 
 .land-app .view-header h1,
@@ -2140,6 +2154,17 @@ table .ui-table-row {
   border-radius: 4px;
   padding: 8px 15px 12px 15px;
   margin-bottom: 20px !important;
+}
+.ui-app-area .date-block {
+  border-left: 1px solid #4A8FE7;
+  padding-left: 15px;
+  margin-bottom: 45px;
+}
+.ui-app-area .date-block:last-child {
+  margin-bottom: 20px;
+}
+.ui-app-area .date-block .full-block:last-child {
+  margin-bottom: 0px;
 }
 
 /* =========================== */
