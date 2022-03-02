@@ -1,3 +1,3 @@
 module WelcomeCss
-  VERSION = "0.37"
+  VERSION = "0.38"
 end
