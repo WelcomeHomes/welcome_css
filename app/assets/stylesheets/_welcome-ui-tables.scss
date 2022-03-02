@@ -112,7 +112,7 @@ table .ui-table-row {
   /*background-color: #edeff4;*/
   background-color: $ui_white;
   /*border-bottom: 1px solid #000;*/
-  font-family: 'nunitosans-semibold';
+  font-family: 'hk_groteskbold';
 }
 .ui-table table {
   background-color: $ui_white;
@@ -123,10 +123,10 @@ table .ui-table-row {
 }
 .ui-table td {
   padding: 26px 20px;
-  font-family: 'nunitosans-regular';
+  font-family: 'hk_groteskmedium';
 }
 .ui-table td a {
-  font-family: 'nunitosans-semibold';
+  font-family: 'hk_groteskbold';
 }
 .ui-table .ui-sort {
   color: $ui_back;

@@ -37,22 +37,19 @@ $ui_font_normal: 16px;
 /* --------------- */
 
 h1, h2, h3, h4 {
-  /*font-family: 'gt-eesti-regular';*/
-  font-family: 'gilroy-bold';
+  font-family: 'gt-eesti-regular';
 }
 .ui-app-area {
-  /*font-family: 'hk_groteskmedium';*/
-  font-family: 'nunitosans-regular';
+  font-family: 'hk_groteskmedium';
 }
 .ui-app-area strong {
-  /*font-family: 'hk_groteskbold';*/
-  font-family: 'nunitosans-bold';
+  font-family: 'hk_groteskbold';
 }
 
 /* --------------- */
 
 .am-content.ui-app-area .page-head h2 {
-  font-family: 'gilroy-bold';
+  font-family: 'hk_groteskbold';
   font-size: 26px;
   line-height: 32px;
 }
