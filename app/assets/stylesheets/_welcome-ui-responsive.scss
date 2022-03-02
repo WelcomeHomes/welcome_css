@@ -202,6 +202,9 @@
   .white-header .col-lg-5 {
     width: 50%;
   }
+  .responsive-left {
+    float: left !important;
+  }
 }
 
 @media (min-width: 769px) {
@@ -364,6 +367,11 @@
 
   .ui-app-area .table-item {
     width: 32%;
+  }
+
+  .tab-content.px-4 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
 

@@ -26,7 +26,7 @@
   /*background-color: $ui_middlegray;*/
   margin-bottom: 30px;
   width: 100%;
-  padding: 15px 0 15px 10px;
+  padding: 15px 0;
 }
 .land-app .white-header {
   border-bottom: none;
@@ -1442,13 +1442,15 @@ table .ui-table-row {
   float: left;
   position: relative;
   width: 100%;
-  background-color: $ui_white;
+  /*background-color: $ui_white;*/
+  background-color: #F9FAFC;
   padding: 18px 20px 0px 20px;
   margin-bottom: 30px;
+  border: 1px solid #D8D9DF;
   border-radius: $ui_radius;
-  -webkit-box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.15);
+  /*-webkit-box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.15);
      -moz-box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.15);
-          box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.15);
+          box-shadow: 1px 1px 12px 0px rgba(141,141,141,0.15);*/
 }
 .land-app .ui-app-area .full-block .full-block-content {
   display: block;
