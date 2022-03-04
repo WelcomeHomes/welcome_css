@@ -55,6 +55,9 @@
   .am-content.ui-app-area .model-widget .model-info .model-title {
     width: 100% !important;
   }
+  .ui-app-area .items-container .table-item {
+    width: 24%;
+  }
 }
 
 @media (max-width: 992px) {
@@ -373,6 +376,10 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+
+  .ui-app-area .items-container .table-item {
+    width: 32%;
+  }
 }
 
 @media (max-width: 460px) {
@@ -397,6 +404,10 @@
 
   .ui-app-area .table-item {
     width: 48%;
+  }
+
+  .ui-app-area .items-container .table-item {
+    width: 49%;
   }
 }
 
