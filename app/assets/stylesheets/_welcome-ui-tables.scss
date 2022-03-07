@@ -2709,6 +2709,20 @@ table .ui-table-row {
   text-indent: -9999px;
   z-index: 2;
 }
+.ui-app-area .activate_deactivate input[type=submit] {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-indent: -9999px;
+  z-index: 2;
+  background-color: transparent;
+  border: none;
+}
+.ui-app-area .activate_deactivate input[type=submit]:hover {
+  background-color: transparent !important;
+  border: none !important;
+}
 .ui-app-area .activate_deactivate img.img-responsive {
   display: block;
   width: 22px !important;
