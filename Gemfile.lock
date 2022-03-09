@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    welcome_css (0.52)
+    welcome_css (0.53)
       bootstrap (~> 4.6.0, >= 4.6.0)
       rails (>= 6.0.0)
 
