@@ -2677,7 +2677,6 @@ table .ui-table-row {
   width: 100%;
   max-width: 100%;
   margin-bottom: 12px;
-  height: 100%;
   max-height: 150px;
   height: 150px;
 }
@@ -2745,6 +2744,88 @@ table .ui-table-row {
   height: auto !important;
 }
 
+/* =========================== */
+
+.ui-app-area .estimates-container .btn-new {
+  display: block;
+  position: absolute;
+  top: 16px;
+  right: 22px;
+}
+.ui-app-area .estimates-drop-container .products-column {
+  display: block;
+  width: 34%;
+  float: left;
+  margin-top: 30px;
+  top: 20px;
+  background-color: #F9FAFC !important;
+  border: 1px solid #D8D9DF;
+  height: calc(100vh - 20px);
+  overflow: scroll;
+}
+.ui-app-area .estimates-drop-container .products-column #product_lists .row {
+  --bs-gutter-x: 0 !important;
+}
+.ui-app-area .estimates-drop-container .products-column .product-item {
+  padding-right: 5px;
+  font-size: 14px;
+}
+.ui-app-area .estimates-drop-container .products-column .product-item .card-body {
+  padding: 10px;
+}
+.ui-app-area .estimates-drop-container .products-column .product-item h5.card-title {
+  font-size: 14px;
+  min-height: 30px;
+  min-height: 75px;
+
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.ui-app-area .estimates-drop-container .products-column .product-item h5.card-title span {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.ui-app-area .estimates-drop-container .products-column .product-item img.img-responsive {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 4px;
+  max-height: 150px;
+  height: 130px;
+}
+.ui-app-area .estimates-drop-container .themes-column {
+  display: block;
+  width: 64%;
+  float: right;
+}
+.ui-app-area .estimates-drop-container .themes-column .card-body {
+  display: block;
+  width: 75%;
+  float: left;
+  position: relative;
+}
+.ui-app-area .estimates-drop-container .themes-column .price-container {
+  display: block;
+  width: 24% !important;
+  float: right;
+  margin-top: 30px;
+  top: 20px;
+  background-color: #F9FAFC !important;
+  border: 1px solid #D8D9DF;
+}
+.ui-app-area .estimates-drop-container .component-addition {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 4px;
+}
+.ui-app-area .estimates-drop-container .component-addition.active,
+.ui-app-area .estimates-drop-container .component-addition:hover {
+  background-color: #EBEFF5;
+  color: #000;
+}
 
 
 

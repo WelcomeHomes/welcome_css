@@ -19,6 +19,13 @@
     position: relative;
     width: 100%;
   }
+  .ui-app-area .estimates-drop-container .themes-column .card-body {
+    width: 100%;
+  }
+  .ui-app-area .estimates-drop-container .themes-column .price-container {
+    width: 100% !important;
+    margin-top: 0px;
+  }
 }
 
 @media (min-width: 993px) {
@@ -207,6 +214,13 @@
   }
   .responsive-left {
     float: left !important;
+  }
+  .ui-app-area .estimates-drop-container .products-column .product-item {
+    width: 100% !important;
+  }
+  .ui-app-area .estimates-drop-container .products-column .product-item img.img-responsive {
+    max-height: 140px;
+    height: 140px;
   }
 }
 

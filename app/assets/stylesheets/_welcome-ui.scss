@@ -154,6 +154,11 @@ $ui-shadow: 1px -1px 13px 0px rgba(174,174,174,0.15);
   box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.15);
 }
 
+$ui-medium-shadow: 1px -1px 13px 0px rgba(174,174,174,0.15%);
+.medium-shadow {
+  box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.15%);
+}
+
 $ui-light-shadow: 1px -1px 7px 0px rgba(174,174,174,0.05);
 .light-shadow {
   box-shadow: 1px -1px 7px 0px rgba(174,174,174,0.05);
