@@ -2848,7 +2848,7 @@ table .ui-table-row {
 }
 .ui-app-area .estimates-drop-container .products-column {
   display: block;
-  width: 34%;
+  width: 44%;
   float: left;
   margin-top: 0px;
   top: 20px;
@@ -2870,7 +2870,7 @@ table .ui-table-row {
 }
 .ui-app-area .estimates-drop-container .products-column .product-item h5.card-title {
   font-size: 14px;
-  min-height: 60px;
+  min-height: 40px;
 
   display: -webkit-box;
   overflow: hidden;
@@ -2890,9 +2890,29 @@ table .ui-table-row {
   max-height: 150px;
   height: 130px;
 }
+
+.ui-app-area .estimates-drop-container .products-column .product-item .img-container {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 150px;
+
+  overflow: hidden;
+  margin-bottom: 6px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.ui-app-area .estimates-drop-container .products-column .btn-filter {
+  margin-left: 8px !important;
+}
+.ui-app-area .estimates-drop-container .products-column .float-right {
+  float: right;
+}
+
 .ui-app-area .estimates-drop-container .themes-column {
   display: block;
-  width: 64%;
+  width: 55%;
   float: right;
 }
 .ui-app-area .estimates-drop-container .themes-column .card-body {
