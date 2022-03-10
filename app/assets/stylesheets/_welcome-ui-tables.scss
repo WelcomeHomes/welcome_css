@@ -2942,6 +2942,18 @@ table .ui-table-row {
   color: #000;
 }
 
+/* =========================== */
+
+.ui-app-area .estimates-drop-container #ui-tabs {
+  display: block;
+  float: left;
+  position: relative;
+  padding-left: 0;
+}
+.ui-app-area .estimates-drop-container #ui-tabs .btn.btn-select {
+  margin-top: 0px;
+  width: 200px;
+}
 
 
 
