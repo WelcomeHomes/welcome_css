@@ -6,7 +6,7 @@
   border: 1px solid $ui_green;
 }
 .ui-btn {
-  font-family: 'gt-eesti-medium';
+  font-family: 'hk_groteskmedium';
   padding: 7px 15px 6px 34px;
   border-radius: $ui-radius;
   margin-left: 8px !important;
@@ -17,7 +17,7 @@
   background-image: image-url('icons/add.svg');
   background-repeat: no-repeat;
   background-position: left 16px top 14px;
-  font-family: 'gt-eesti-medium';
+  font-family: 'hk_groteskmedium';
 }
 .btn-primary {
   background-color: $ui_blue;
@@ -65,16 +65,16 @@
   background-repeat: no-repeat;
   background-size: 8px;
   background-position: right 10px top 16px;
-  font-family: 'gt-eesti-medium';
+  font-family: 'hk_groteskmedium';
 }
 .ui-app-area .btn-success {
-  font-family: 'gt-eesti-medium';
+  font-family: 'hk_groteskmedium';
   background-color: transparent;
   border: 1px solid $ui_blue;
   color: $ui_blue;
 }
 .ui-app-area .btn-alternative {
-  font-family: 'gt-eesti-medium';
+  font-family: 'hk_groteskmedium';
   background-color: transparent;
   border: 1px solid #D9D9D9;
   font-weight: normal;
@@ -86,7 +86,7 @@
   font-size: $ui_font_normal;
   color: $ui_blue;
   border: 1px solid $ui_blue;
-  font-family: 'gt-eesti-medium';
+  font-family: 'hk_groteskmedium';
 }
 
 .btn-white {
@@ -94,7 +94,7 @@
   font-size: $ui_font_normal;
   color: $ui_back;
   border: 1px solid $ui_back;
-  font-family: 'gt-eesti-medium';
+  font-family: 'hk_groteskmedium';
 }
 .btn-gray {
   background-color: $ui_white;
@@ -110,14 +110,14 @@
   font-size: $ui_font_normal;
   color: $ui_white;
   border: 1px solid $ui_back;
-  font-family: 'gt-eesti-medium';
+  font-family: 'hk_groteskmedium';
 }
 .btn-black-alternative {
   background-color: $ui_white;
   font-size: $ui_font_normal;
   color: $ui_back;
   border: 1px solid $ui_back;
-  font-family: 'gt-eesti-medium';
+  font-family: 'hk_groteskmedium';
 }
 .btn-pad-lg {
   padding: 6px 30px !important;
