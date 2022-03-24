@@ -2948,26 +2948,47 @@ table .ui-table-row {
   float: right;
 }
 
+/*.ui-app-area .estimates-drop-container .themes-column {
+  display: block;
+  width: 55%;
+  float: right;
+}*/
 .ui-app-area .estimates-drop-container .themes-column {
   display: block;
   width: 55%;
   float: right;
+  margin-top: 0px;
+  /*background-color: #F9FAFC !important;
+  border: 1px solid #D8D9DF;*/
+
+  height: calc(100vh - 20px);
+  overflow: scroll;
+  position: relative;
 }
 .ui-app-area .estimates-drop-container .themes-column .card-body {
   display: block;
   width: 100%;
   float: left;
   position: relative;
+  padding-top: 0 !important;
+  padding-bottom: 70px;
+}
+.ui-app-area .estimates-drop-container .themes-column .estimates-container {
+  display: block;
+  position: absolute;
+  height: 100%;
+  padding-bottom: 80px;
 }
 .ui-app-area .estimates-drop-container .themes-column .price-container {
   display: block;
   width: 100% !important;
   float: right;
   margin-top: 0px;
-  top: 20px;
-  background-color: #F9FAFC !important;
+  background-color: #fff !important;
   border: 1px solid #D8D9DF;
   text-align: center;
+  position: absolute;
+  bottom: 0;
 }
 .ui-app-area .estimates-drop-container .component-addition {
   padding-top: 6px;
@@ -2978,6 +2999,20 @@ table .ui-table-row {
 .ui-app-area .estimates-drop-container .component-addition:hover {
   background-color: #EBEFF5;
   color: #000;
+}
+.ui-app-area .estimates-drop-container .product-choice .text-success {
+  background-color: #53DA7E;
+  color: #fff !important;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
+}
+.ui-app-area .estimates-drop-container .product-choice .text-danger {
+  background-color: #eaeaea;
+  color: #fff !important;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 12px;
 }
 
 /* =========================== */
