@@ -23,8 +23,11 @@
     width: 100%;
   }
   .ui-app-area .estimates-drop-container .themes-column .price-container {
-    width: 100% !important;
+    width: 24% !important;
     margin-top: 0px;
+  }
+  .ui-app-area #themes img {
+    max-width: 60px !important;
   }
 }
 
@@ -414,6 +417,19 @@
 
   .ui-app-area .items-container .table-item {
     width: 32%;
+  }
+
+  /* =========================== */
+
+  .ui-app-area .estimates-drop-container .themes-column .estimates-container {
+    width: 100% !important;
+  }
+  .ui-app-area .estimates-drop-container .themes-column .price-container {
+    width: 100% !important;
+  }
+  .ui-app-area .areas-selected-list {
+    height: auto;
+    overflow: scroll;
   }
 }
 
