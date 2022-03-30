@@ -2709,7 +2709,7 @@ table .ui-table-row {
 .ui-app-area .items-container .table-item h4,
 .ui-app-area .items-container .table-item .h4 {
   font-size: 14px;
-  min-height: 45px !important;
+  min-height: 52px !important;
 
   display: -webkit-box;
   overflow: hidden;
@@ -2794,9 +2794,9 @@ table .ui-table-row {
   width: 40px;
   height: 22px;
   border-radius: 4px;
-  box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.30);
+  /*box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.30);
   -webkit-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.30);
-  -moz-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.30);
+  -moz-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.30);*/
 }
 .ui-app-area .activate_deactivate a {
   display: block;
@@ -2835,6 +2835,7 @@ table .ui-table-row {
   display: inline-block;
   width: 40px;
   height: 22px;
+  margin-top: -8px;
 }
 .ui-app-area .items-container .table-item .switch input {
   opacity: 0;
@@ -2942,7 +2943,6 @@ table .ui-table-row {
   max-height: 150px;
   height: 130px;
 }
-
 .ui-app-area #products-list .product-item .img-container {
   display: block;
   position: relative;
@@ -3005,11 +3005,17 @@ table .ui-table-row {
   background-color: #fff !important;
   border: 1px solid #D8D9DF;
   width: 24% !important;
+
+  top: 50px;
 }
 .ui-app-area .estimates-drop-container .component-addition {
   padding-top: 6px;
   padding-bottom: 6px;
   border-radius: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .ui-app-area .estimates-drop-container .component-addition.active,
 .ui-app-area .estimates-drop-container .component-addition:hover {
@@ -3029,6 +3035,28 @@ table .ui-table-row {
   border-radius: 50%;
   padding: 2px 6px;
   font-size: 12px;
+}
+.ui-app-area .product-choice .product-specification {
+  margin-bottom: 4px;
+}
+.ui-app-area .product-choice .product-name {
+  font-size: 14px;
+  line-height: 18px;
+  min-height: 40px;
+
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.card .delete-selected {
+  display: none;
+}
+.product-selected .delete-selected {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
 
 /* =========================== */
@@ -3123,9 +3151,10 @@ table .ui-table-row {
   border: 1px solid #6FB1F3;
 }
 .modal-dialog #product_list button {
-  border: 1px solid #E8E9E9 !important;
+  border: 2px solid #E8E9E9 !important;
   width: 100%;
   background-color: #fff;
+  padding: 0;
 }
 .modal-dialog #search_form button.btn-primary {
   background-color: #fff !important;
@@ -3155,6 +3184,9 @@ table .ui-table-row {
   border-bottom: 1px solid #D8D9DF;
   padding-bottom: 12px;
 }
+.ui-app-area .areas-selected-list .row {
+  margin-bottom: 8px;
+}
 
 /* =========================== */
 
@@ -3178,6 +3210,22 @@ table .ui-table-row {
   color: #000 !important;
   background-color: #F2F4FF;
   font-weight: bold;
+}
+.ui-app-area .product-img-choice {
+  width: 100px;
+  height: 72px;
+  border: 1px solid #D8D9DF;
+
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.ui-app-area .rooms-pills {
+  background-color: #fff;
+  padding: 5px 5px 2px 5px;
+  border-radius: 4px;
+  border: 1px solid #D8D9DF;
+  /*box-shadow: 1px -1px 8px 0px rgba(174,174,174,.2%);*/
 }
 
 

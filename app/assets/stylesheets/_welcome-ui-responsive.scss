@@ -29,6 +29,10 @@
   .ui-app-area #themes img {
     max-width: 60px !important;
   }
+  .ui-app-area .product-img-choice {
+    width: 80px;
+    height: 66px;
+  }
 }
 
 @media (min-width: 993px) {
@@ -224,6 +228,10 @@
   .ui-app-area .estimates-drop-container .products-column .product-item img.img-responsive {
     max-height: 140px;
     height: 140px;
+  }
+  .ui-app-area .product-img-choice {
+    width: 66px;
+    height: 54px;
   }
 }
 
