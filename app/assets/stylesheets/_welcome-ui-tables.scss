@@ -3075,11 +3075,30 @@ table .ui-table-row {
 .modal-dialog #product_list .product-selected h4 {
   font-size: 18px;
 }
+.modal-dialog #product_list .product-selected .card {
+  width: 100% !important;
+}
+
 .modal-dialog #product_list .product-selected .product-item {
   width: 100% !important;
 }
+.modal-dialog #product_list .card {
+  width: 23%;
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 7px;
+}
+.modal-dialog #product_list .product-selected .card.selected form:nth-child(2) {
+  display: block;
+  position: absolute;
+  width: 25px !important;
+  height: 25px;
+  top: 0;
+  right: 0;
+}
+
 .modal-dialog #product_list .product-item {
-  width: 25%;
+  width: 100%;
   display: block;
   float: left;
   position: relative;
@@ -3092,6 +3111,11 @@ table .ui-table-row {
   position: relative;
   width: 78%;
 }
+.modal-dialog #product_list .product-list .card.selected form:nth-child(2) {
+  height: 0 !important;
+  margin-bottom: 0 !important;
+}
+
 .modal-dialog #product_list .product-item .card-body {
   padding: 8px;
 }
@@ -3151,7 +3175,8 @@ table .ui-table-row {
   border: 1px solid #6FB1F3;
 }
 .modal-dialog #product_list button {
-  border: 2px solid #E8E9E9 !important;
+  /*border: 2px solid #E8E9E9 !important;*/
+  border: none !important;
   width: 100%;
   background-color: #fff;
   padding: 0;
@@ -3226,6 +3251,9 @@ table .ui-table-row {
   border-radius: 4px;
   border: 1px solid #D8D9DF;
   /*box-shadow: 1px -1px 8px 0px rgba(174,174,174,.2%);*/
+}
+.modal-dialog #product_list .product-list .card-title {
+  height: 44px;
 }
 
 
