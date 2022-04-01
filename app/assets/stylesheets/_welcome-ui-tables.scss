@@ -2686,6 +2686,16 @@ table .ui-table-row {
 .ui-app-area .items-container .table-item.Activate .product-brand {
   opacity: 50%;
 }
+.ui-app-area .items-container.inactive-products .table-item.Activate .img-container,
+.ui-app-area .items-container.inactive-products .table-item.Activate h4,
+.ui-app-area .items-container.inactive-products .table-item.Activate .product-price,
+.ui-app-area .items-container.inactive-products .table-item.Activate .product-component,
+.ui-app-area .items-container.inactive-products .table-item.Activate .product-brand {
+  opacity: 100% !important;
+}
+.table-item [aria-busy="true"] {
+  background-color: #ff0000 !important;
+}
 .ui-app-area .items-container .table-item .img-container {
   display: block;
   position: relative;
