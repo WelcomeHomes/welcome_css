@@ -2840,20 +2840,23 @@ table .ui-table-row {
 
 /* =========================== */
 
-.ui-app-area .items-container .table-item .switch {
+.ui-app-area .items-container .table-item .switch,
+.ui-app-area .items-container .switch {
   position: relative;
   display: inline-block;
   width: 40px;
   height: 22px;
   margin-top: -8px;
 }
-.ui-app-area .items-container .table-item .switch input {
+.ui-app-area .items-container .table-item .switch input,
+.ui-app-area .items-container .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
 
-.ui-app-area .items-container .table-item .slider {
+.ui-app-area .items-container .table-item .slider,
+.ui-app-area .items-container .slider {
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -2865,7 +2868,8 @@ table .ui-table-row {
   transition: .4s;
 }
 
-.ui-app-area .items-container .table-item .slider:before {
+.ui-app-area .items-container .table-item .slider:before,
+.ui-app-area .items-container .slider:before {
   position: absolute;
   content: "";
   height: 15px;
@@ -2877,27 +2881,33 @@ table .ui-table-row {
   transition: .4s;
 }
 
-.ui-app-area .items-container .table-item .slider {
+.ui-app-area .items-container .table-item .slider,
+.ui-app-area .items-container .slider {
   background-color: #5DD687;
 }
-.ui-app-area .items-container .table-item .slider-off {
+.ui-app-area .items-container .table-item .slider-off,
+.ui-app-area .items-container .slider-off {
   background-color: #CCC;
 }
 
-.ui-app-area .items-container .table-item input:focus + .slider {
+.ui-app-area .items-container .table-item input:focus + .slider,
+.ui-app-area .items-container input:focus + .slider {
   box-shadow: 0 0 1px #5DD687;
 }
 
-.ui-app-area .items-container .table-item input:checked + .slider:before {
+.ui-app-area .items-container .table-item input:checked + .slider:before,
+.ui-app-area .items-container input:checked + .slider:before {
   -webkit-transform: translateX(15px);
   -ms-transform: translateX(15px);
   transform: translateX(15px);
 }
 
-.ui-app-area .items-container .table-item .slider.round {
+.ui-app-area .items-container .table-item .slider.round,
+.ui-app-area .items-container .slider.round {
   border-radius: 34px;
 }
-.ui-app-area .items-container .table-item .slider.round:before {
+.ui-app-area .items-container .table-item .slider.round:before,
+.ui-app-area .items-container .slider.round:before {
   border-radius: 50%;
 }
 
