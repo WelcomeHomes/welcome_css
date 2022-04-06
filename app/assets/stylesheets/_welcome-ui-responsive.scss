@@ -306,6 +306,9 @@
   .land-app .ui-app-area .filter-block .col-4 {
     width: 100%;
   }
+  .am-wrapper .component-container .block-pill {
+    width: 32%;
+  }
 }
 
 @media (max-width: 580px) {
@@ -438,6 +441,9 @@
   .ui-app-area .areas-selected-list {
     height: auto;
     overflow: scroll;
+  }
+  .am-wrapper .component-container .block-pill {
+    width: 48%;
   }
 }
 

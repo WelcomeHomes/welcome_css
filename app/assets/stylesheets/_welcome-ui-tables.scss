@@ -3276,8 +3276,35 @@ table .ui-table-row {
   height: 44px;
 }
 
+/* =========================== */
 
-
-
-
-
+.am-wrapper .component-container {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #D9D9D9;
+  padding-bottom: 30px;
+}
+.am-wrapper .component-container h2 {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.am-wrapper .component-container .block-pill {
+  margin-left: auto;
+  width: 24%;
+  margin: 0 3px;
+}
+.am-wrapper .component-container .block-pill form {
+  padding: 0;
+}
+.am-wrapper .component-container .block-pill form label {
+  margin-bottom: 12px;
+}
+.am-wrapper .component-container .block-pill .col-4 {
+  width: 100%;
+}
+.modal-content .block-pill form label {
+  margin-bottom: 12px;
+}
