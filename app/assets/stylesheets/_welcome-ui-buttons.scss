@@ -318,11 +318,16 @@
 .link-icon:hover {
   cursor: pointer;
 }
-.simple-link {
-  color: #4A8FE7;
-  background-color: transparent;
+.simple-link, .simple-link:hover,
+.btn.btn-link, .btn.btn-link:hover {
+  color: #4A8FE7 !important;
+  background-color: transparent !important;
   border: none;
   font-weight: normal;
-  padding: 0;
+  padding: 0 !important;
   margin: 0 5px;
+}
+.simple-link:hover,
+.btn.btn-link:hover {
+  text-decoration: underline;
 }
