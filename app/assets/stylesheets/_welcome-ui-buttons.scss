@@ -331,3 +331,13 @@
 .btn.btn-link:hover {
   text-decoration: underline;
 }
+input[type="submit"].btn-link,
+input[type="submit"].simple-link {
+  display: block;
+  float: left;
+}
+input[type="submit"].btn-link:hover,
+input[type="submit"].simple-link:hover {
+  background-color: transparent !important;
+  border: none !important;
+}
