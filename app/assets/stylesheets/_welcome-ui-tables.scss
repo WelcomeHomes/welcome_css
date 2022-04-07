@@ -3243,7 +3243,7 @@ table .ui-table-row {
 }
 .ui-app-area .estimates-drop-container #ui-tabs .btn.btn-select {
   margin-top: 0px;
-  width: 200px;
+  width: 180px;
   font-size: 14px !important;
   padding: 5px 15px !important;
   background-position: right 10px top 15px !important;
@@ -3307,4 +3307,53 @@ table .ui-table-row {
 }
 .modal-content .block-pill form label {
   margin-bottom: 12px;
+}
+#model-area-themes [draggable] {
+  display: block;
+  float: left;
+  position: relative;
+  width: 24%;
+  margin: 0 3px;
+  border: none !important;
+}
+#model-area-themes [contenteditable] {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 42px;
+  padding: 10px 34px 10px 25px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  background-image: image-url('icons/icn-edit.svg');
+  background-repeat: no-repeat;
+  background-size: 10px;
+  background-position: left 7px top 15px;
+  margin-bottom: 18px;
+}
+#model-area-themes [data-remote] {
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 42px;
+  border: 1px solid #ff0000;
+  border-radius: 4px;
+  top: 0;
+  right: 0;
+  background-image: image-url('icons/icn-trash.svg');
+  background-repeat: no-repeat;
+  background-size: 15px;
+  background-position: left 7px top 10px;
+  text-indent: -9999px;
+}
+#model-area-themes [draggable]:hover {
+  /*cursor: grab;*/
+}
+.modal-content #model-area-themes div:last-child {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
 }

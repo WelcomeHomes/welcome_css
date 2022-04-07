@@ -309,6 +309,9 @@
   .am-wrapper .component-container .block-pill {
     width: 32%;
   }
+  #model-area-themes [draggable] {
+    width: 48%;
+  }
 }
 
 @media (max-width: 580px) {
