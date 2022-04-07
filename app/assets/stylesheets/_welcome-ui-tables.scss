@@ -3315,12 +3315,17 @@ table .ui-table-row {
   width: 24%;
   margin: 0 3px;
   border: none !important;
+  padding-left: 20px;
+  background-image: image-url('icons/icn-rearrange.svg');
+  background-repeat: no-repeat;
+  background-size: 14px;
+  background-position: left 0px top 14px;
 }
 #model-area-themes [contenteditable] {
   display: block;
   float: left;
   position: relative;
-  width: 100%;
+  width: 95%;
   height: 42px;
   padding: 10px 34px 10px 25px;
   border: 1px solid #ddd;
@@ -3332,6 +3337,9 @@ table .ui-table-row {
   background-position: left 7px top 15px;
   margin-bottom: 18px;
 }
+#model-area-themes [contenteditable]:hover {
+  cursor: text;
+}
 #model-area-themes [data-remote] {
   display: block;
   position: absolute;
@@ -3340,7 +3348,7 @@ table .ui-table-row {
   border: 1px solid #ff0000;
   border-radius: 4px;
   top: 0;
-  right: 0;
+  right: 12px;
   background-image: image-url('icons/icn-trash.svg');
   background-repeat: no-repeat;
   background-size: 15px;
@@ -3348,7 +3356,7 @@ table .ui-table-row {
   text-indent: -9999px;
 }
 #model-area-themes [draggable]:hover {
-  /*cursor: grab;*/
+  cursor: move;
 }
 .modal-content #model-area-themes div:last-child {
   display: block;
