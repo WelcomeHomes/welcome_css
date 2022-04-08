@@ -3205,9 +3205,40 @@ table .ui-table-row {
   background-color: #fff !important;
   color: #3A3A3A !important;
   border: 1px solid #E0E5E7 !important;
+
+  width: 200px;
+  display: block;
+  position: absolute;
+  height: 40px;
+  right: 145px;
+  top: 0;
 }
+.modal-content #search_form {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
 
-
+  border-bottom: 1px solid #C4C5C6;
+  margin-bottom: 30px;
+}
+.modal-content #search_form .row.mb-2 .col-12.mb-3 {
+  margin-top: 55px;
+}
+.modal-content #search_form .row.mb-2 a {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 132px;
+  text-align: center;
+  height: 40px;
+  background-color: #4A8FE5;
+  color: #fff;
+  text-decoration: none;
+  padding: 7px 12px 6px;
+  border-radius: 4px;
+}
 .ui-app-area .price-container h4 {
   border-bottom: 1px solid #D8D9DF;
   width: 100%;
@@ -3364,4 +3395,10 @@ table .ui-table-row {
   position: relative;
   width: 100%;
   margin-top: 20px;
+}
+.modal-content .form-group .select2-selection {
+  border: 1px solid #CED4DA;
+  min-height: 37px;
+}
+.modal-content .form-group textarea {
 }
