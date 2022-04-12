@@ -3400,5 +3400,28 @@ table .ui-table-row {
   border: 1px solid #CED4DA;
   min-height: 37px;
 }
-.modal-content .form-group textarea {
+
+/* =========================== */
+
+.table .edit_product button {
+  display: block;
+  position: absolute;
+  right: 15px;
+  bottom: 25px;
+}
+.table .edit_product button.btn-primary:disabled {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #000;
+}
+.table .edit_product button.btn-primary:hover {
+  background-color: #4A8FE7 !important;
+  color: #fff !important;
+  border: 1px solid #4A8FE7;
+}
+.table .edit_product .product-brand {
+  padding-right: 60px;
+}
+.table .progress {
+  height: 10px;
 }
