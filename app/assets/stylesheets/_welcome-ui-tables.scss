@@ -3358,7 +3358,7 @@ table .ui-table-row {
   position: relative;
   width: 95%;
   height: 42px;
-  padding: 10px 34px 10px 25px;
+  padding: 10px 70px 10px 25px;
   border: 1px solid #ddd;
   border-radius: 4px;
   font-size: 14px;
@@ -3394,12 +3394,43 @@ table .ui-table-row {
   float: left;
   position: relative;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 10px;
+
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
 }
 .modal-content .form-group .select2-selection {
   border: 1px solid #CED4DA;
   min-height: 37px;
 }
+.modal-content .duplicate-theme {
+  position: absolute;
+  right: 40px;
+  height: 42px;
+}
+.modal-content .duplicate-theme.btn-duplicate {
+  background-position: top 12px left 9px;
+  width: 36px;
+}
+.modal-content .duplicate-theme.btn-duplicate:hover span {
+  padding: 5px;
+  display: block;
+  z-index: 100;
+  background: #000;
+  color: #fff;
+  left: 5px;
+  top: -15px !important;
+  margin: 0;
+  width: 175px;
+  position: absolute;
+  top: 15px;
+  text-decoration: none;
+  text-indent: initial;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+
 
 /* =========================== */
 
