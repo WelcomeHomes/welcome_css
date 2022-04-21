@@ -3320,6 +3320,13 @@ table .ui-table-row {
   padding: 5px 15px !important;
   background-position: right 10px top 15px !important;
 }
+.ui-app-area .download-link {
+  background-image: image-url('icons/icn-download-blue.svg');
+  background-repeat: no-repeat;
+  background-size: 12px;
+  background-position: left 0px top 3px;
+  padding-left: 18px;
+}
 
 /* =========================== */
 

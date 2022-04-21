@@ -714,3 +714,25 @@ $block-result-color: #000;
     table-layout: auto !important;
   }
 }
+
+/* ====================================== */
+/* Style Guide */
+
+.highlight {
+  padding: 15px 30px;
+  background-color: $ui_lightgray;
+  border-radius: 8px;
+}
+.highlight pre {
+  padding: 0;
+  margin-top: 0.65rem;
+  margin-bottom: 0.65rem;
+  white-space: pre;
+  background-color: transparent;
+  border: 0;
+}
+.highlight pre code {
+  font-size: inherit;
+  color: #212529;
+  word-wrap: normal;
+}
