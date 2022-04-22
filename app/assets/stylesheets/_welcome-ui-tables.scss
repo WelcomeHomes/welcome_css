@@ -3330,6 +3330,67 @@ table .ui-table-row {
 
 /* =========================== */
 
+.ui-app-area #product_import .table-item:hover {
+  cursor: pointer;
+}
+.ui-app-area .form-selected[hidden] {
+  visibility: hidden;
+  opacity: 0;
+
+  -webkit-transition: opacity 600ms, visibility 600ms;
+  transition: opacity 600ms, visibility 600ms;
+}
+.ui-app-area .form-selected {
+  display: block;
+  float: left;
+  position: sticky;
+  background-color: #fff;
+  bottom: 0;
+  width: calc(100% + 30px);
+  height: 80px;
+  padding: 20px;
+  margin-left: -15px;
+  box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.30);
+  -webkit-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.30);
+  -moz-box-shadow: 1px -1px 13px 0px rgba(174,174,174,0.30);
+
+  visibility: visible;
+  opacity: 1;
+}
+.ui-app-area .selected-products-popup {
+  float: none;
+  position: relative;
+  max-width: 780px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.ui-app-area .selected-products-popup .select2.select2-container {
+  width: 320px !important;
+  margin-right: 10px;
+  margin-left: 10px;
+  text-align: left;
+}
+.ui-app-area .selected-products-popup .select2.select2-container .select2-selection {
+  height: 40px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+/* =========================== */
+
+.land-app .ui-app-area [data-controller="batch-action"] .table-item.selected {
+  border-color: #6FB1F3 !important;
+}
+
+/* =========================== */
+
 .ui-app-area #themes .dropdown-item.btn-secondary {
   color: #000 !important;
   background-color: #F2F4FF;
