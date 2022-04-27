@@ -1176,30 +1176,46 @@ table .ui-table-row {
   min-height: 90px;
 }
 .widget .phase,
+.ui-app-area .phase,
 .block-stats-area .parcels-list .phase {
   border-radius: $ui-radius;
   padding: 0 2px;
   color: $ui_white;
 }
-.block-stats-area .parcels-list .phase {
+.block-stats-area .parcels-list .phase,
+.ui-app-area .phase {
   font-size: 13px;
 }
 .widget .phase.p-pass,
+.ui-app-area .phase.p-pass,
 .block-stats-area .parcels-list .phase.p-pass {
   background-color: $ui_blue;
 }
 .widget .phase.p-questionable,
+.ui-app-area .phase.p-questionable,
 .block-stats-area .parcels-list .phase.p-questionable {
   background-color: #FAC15F;
   color: $ui_back;
 }
 .widget .phase.p-offmarket,
+.ui-app-area .phase.p-offmarket,
 .block-stats-area .parcels-list .phase.p-offmarket {
   background-color: #FF411D;
 }
+.widget .phase.p-onmarket,
+.ui-app-area .phase.p-onmarket,
+.block-stats-area .parcels-list .phase.p-onmarket {
+  background-color: #007bff;
+}
 .widget .phase.p-reject,
+.ui-app-area .phase.p-reject,
 .block-stats-area .parcels-list .phase.p-reject {
   background-color: #FF411D;
+}
+.widget .phase.p-notreviewed,
+.ui-app-area .phase.p-notreviewed,
+.block-stats-area .parcels-list .phase.p-notreviewed {
+  background-color: #17a2b8;
 }
 
 .block-stats .progress {
@@ -2065,7 +2081,8 @@ table .ui-table-row {
 
 /* =========================== */
 
-.am-content.ui-app-area .model-widget {
+.am-content.ui-app-area .model-widget,
+.am-content.ui-app-area .launcher-widget {
   display: block;
   position: relative;
   background-color: $ui_white;
@@ -2080,17 +2097,20 @@ table .ui-table-row {
   margin-bottom: 30px;
   float: left;
 }
-.am-content.ui-app-area .model-widget:nth-child(odd) {
+.am-content.ui-app-area .model-widget:nth-child(odd),
+.am-content.ui-app-area .launcher-widget:nth-child(odd) {
   margin-right: 5px;
   margin-left: 5px;
   /*float: left;*/
 }
-.am-content.ui-app-area .model-widget:nth-child(even) {
+.am-content.ui-app-area .model-widget:nth-child(even),
+.am-content.ui-app-area .launcher-widget:nth-child(even) {
   margin-left: 5px;
   margin-right: 5px;
   /*float: right;*/
 }
-.am-content.ui-app-area .model-widget .model-info {
+.am-content.ui-app-area .model-widget .model-info,
+.am-content.ui-app-area .launcher-widget .launcher-info {
   display: block;
   float: left;
   position: relative;
@@ -2098,7 +2118,9 @@ table .ui-table-row {
   margin-bottom: 12px;
 }
 .am-content.ui-app-area .model-widget .model-info .sort img,
-.am-content.ui-app-area .floor-widget .sort img {
+.am-content.ui-app-area .launcher-widget .launcher-info .sort img,
+.am-content.ui-app-area .floor-widget .sort img,
+.am-content.ui-app-area .launcher-widget .sort img {
   position: absolute;
   right: 2px;
   top: 0;
@@ -2137,7 +2159,8 @@ table .ui-table-row {
   position: relative;
   width: 100%;
 }
-.am-content.ui-app-area .model-widget .model-info .active-status {
+.am-content.ui-app-area .model-widget .model-info .active-status,
+.am-content.ui-app-area .launcher-widget .launcher-info .active-status {
   display: block;
   float: left;
   position: relative;
@@ -2148,61 +2171,72 @@ table .ui-table-row {
   font-size: 12px;
   font-weight: bold;
 }
-.am-content.ui-app-area .model-widget .model-info .active-status h6 {
+.am-content.ui-app-area .model-widget .model-info .active-status h6,
+.am-content.ui-app-area .launcher-widget .launcher-info .active-status h6 {
   font-weight: 600;
 }
-.am-content.ui-app-area .model-widget .model-info .active-status .active {
+.am-content.ui-app-area .model-widget .model-info .active-status .active,
+.am-content.ui-app-area .launcher-widget .launcher-info .active-status .active {
   background-image: image-url('icons/icn-active.svg');
   background-repeat: no-repeat;
   background-size: 8px;
   background-position: top 5px left 0px;
   padding-left: 12px;
 }
-.am-content.ui-app-area .model-widget .model-info .active-status .status {
+.am-content.ui-app-area .model-widget .model-info .active-status .status,
+.am-content.ui-app-area .launcher-widget .launcher-info .active-status .status {
   display: none;
 }
-.am-content.ui-app-area .model-widget .model-info .active-status .inactive {
+.am-content.ui-app-area .model-widget .model-info .active-status .inactive,
+.am-content.ui-app-area .launcher-widget .launcher-info .active-status .inactive {
   background-image: image-url('icons/icn-inactive.svg');
   background-repeat: no-repeat;
   background-size: 8px;
   background-position: top 5px left 0px;
   padding-left: 12px;
 }
-.am-content.ui-app-area .model-widget .model-info .model-title {
+.am-content.ui-app-area .model-widget .model-info .model-title,
+.am-content.ui-app-area .launcher-widget .launcher-info .launcher-title {
   display: block;
   float: left;
   margin-bottom: 6px;
 }
-.am-content.ui-app-area .model-widget .model-info .model-studio-status {
+.am-content.ui-app-area .model-widget .model-info .model-studio-status,
+.am-content.ui-app-area .launcher-widget .launcher-info .launcher-studio-status {
   display: block;
   float: left;
 }
-.am-content.ui-app-area .model-widget .model-info .model-studio-status .model-studio-active {
+.am-content.ui-app-area .model-widget .model-info .model-studio-status .model-studio-active,
+.am-content.ui-app-area .launcher-widget .launcher-info .launcher-studio-status .launcher-studio-active {
   float: left;
   font-size: 12px;
   border: 1px solid #979797;
   border-radius: $ui-radius;
   padding: 1px 6px;
 }
-.am-content.ui-app-area .model-widget .model-info .model-studio-status .model-studio-active .active {
+.am-content.ui-app-area .model-widget .model-info .model-studio-status .model-studio-active .active,
+.am-content.ui-app-area .launcher-widget .launcher-info .launcher-studio-status .launcher-studio-active .active {
   display: inline-block;
   width: 8px;
   height: 8px;
   background-color: #2FCC32;
   border-radius: 50%;
 }
-.am-content.ui-app-area .model-widget .model-info .model-studio-status .model-studio-active .inactive {
+.am-content.ui-app-area .model-widget .model-info .model-studio-status .model-studio-active .inactive,
+.am-content.ui-app-area .launcher-widget .launcher-info .launcher-studio-status .launcher-studio-active .inactive {
   display: inline-block;
   width: 8px;
   height: 8px;
   background-color: #4A4A4A;
   border-radius: 50%;
 }
-.am-content.ui-app-area .model-widget .model-img img {
+.am-content.ui-app-area .model-widget .model-img img,
+.am-content.ui-app-area .launcher-widget .launcher-img img {
   max-width: 100%;
   margin-bottom: 12px;
 }
-.am-content.ui-app-area .model-widget .model-info.separator {
+.am-content.ui-app-area .model-widget .model-info.separator,
+.am-content.ui-app-area .launcher-widget .launcher-info.separator {
   padding-top: 14px;
   border-top: 1px solid #D9D9D9;
 }
@@ -2266,6 +2300,7 @@ table .ui-table-row {
   padding-left: 15px;
 }
 .am-content.ui-app-area .floor-widget .floor-container .floor_title_add-edit,
+.am-content.ui-app-area .block-widget .blocks-container .block_title_add-edit,
 .am-content.ui-app-area .floor-widget .floor-container .floor_areas,
 .am-content.ui-app-area .block-widget .blocks-container .blocks_areas {
   display: block;

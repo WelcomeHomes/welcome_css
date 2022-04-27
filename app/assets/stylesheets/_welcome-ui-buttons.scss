@@ -160,7 +160,8 @@
   background-color: $ui_white;
 }
 .btn-delete,
-.new-involved-theme .btn.btn-outline-danger {
+.new-involved-theme .btn.btn-outline-danger,
+.btn-delete.btn.btn-outline-danger {
   padding: 6px 17px !important;
   text-indent: -9999px;
   background-image: image-url('icons/icn-trash.svg');

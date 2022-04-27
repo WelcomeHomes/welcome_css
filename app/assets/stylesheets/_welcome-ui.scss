@@ -58,6 +58,7 @@ h1, h2, h3, h4 {
 // Welcome UI - Colors
 
 $ui_back:          #000000 !important;
+$ui_black:         #000000 !important;
 $ui_white:         #ffffff !important;
 $ui_blue:          #4A8FE7 !important;
 $ui_red:           #FF4949 !important;
@@ -71,7 +72,7 @@ $ui_fill:          #F8F8F8 !important;
 $ui-colors: () !default;
 $ui-colors: map-merge(
   (
-    "ui-black":         $ui_back,
+    "ui-black":         $ui_black,
     "ui-white":         $ui_white,
     "ui_blue":          $ui_blue,
     "ui_green":         $ui_green,
@@ -718,10 +719,25 @@ $block-result-color: #000;
 /* ====================================== */
 /* Style Guide */
 
+.block-division {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  border-top: 1px solid #eaeaea;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 .highlight {
-  padding: 15px 30px;
-  background-color: $ui_lightgray;
-  border-radius: 8px;
+  background: #eaeaea;
+  border: 1px solid #ebeced;
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 21px;
+  max-width: 100%;
+  padding: 20px !important;
+  vertical-align: baseline;
+  margin: 20px 0;
 }
 .highlight pre {
   padding: 0;
@@ -735,4 +751,40 @@ $block-result-color: #000;
   font-size: inherit;
   color: #212529;
   word-wrap: normal;
+}
+.highlight .code-p1 {
+  padding-left: 15px;
+}
+.highlight .code-p2 {
+  padding-left: 30px;
+}
+.highlight .code-p3 {
+  padding-left: 45px;
+}
+.highlight .code-p4 {
+  padding-left: 60px;
+}
+.highlight .code-p5 {
+  padding-left: 75px;
+}
+.highlight .code-p6 {
+  padding-left: 90px;
+}
+.highlight .code-p7 {
+  padding-left: 105px;
+}
+.highlight .code-p8 {
+  padding-left: 120px;
+}
+.highlight .code-p9 {
+  padding-left: 135px;
+}
+.highlight .code-p10 {
+  padding-left: 150px;
+}
+.highlight .code-p11 {
+  padding-left: 165px;
+}
+.highlight .code-p12 {
+  padding-left: 180px;
 }
