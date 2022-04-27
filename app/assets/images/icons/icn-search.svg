@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shape</title>
+    <defs>
+        <filter x="-1.1%" y="-24.0%" width="102.1%" height="148.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.863026495   0 0 0 0 0.863026495   0 0 0 0 0.863026495  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Parcels" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Parcels-Copy-6" transform="translate(-1327.000000, -111.000000)" fill="#AFAFAF" fill-rule="nonzero">
+            <g id="Group-4" filter="url(#filter-1)" transform="translate(259.000000, 101.000000)">
+                <g id="noun_Search_4146266" transform="translate(1074.000000, 16.000000)">
+                    <path d="M13.3609826,5.29493189 C15.5882329,7.52255027 15.5882329,11.1333688 13.3609826,13.3609872 C11.1337324,15.5880458 7.52165752,15.5880458 5.29440726,13.3609872 C3.06715701,11.1333688 3.06715701,7.52255027 5.29608652,5.29493189 C7.52333677,3.06787329 11.1337324,3.06787329 13.3609826,5.29493189 Z M2.73214589,2.73228911 C-0.910715295,6.37529462 -0.910715295,12.2806244 2.73214589,15.92363 C5.90677514,19.0941867 10.8891211,19.5562796 14.5913159,17.0224652 L17.0228754,19.4527216 C18.6657453,21.097056 21.0970249,18.6667997 19.4530354,17.0224652 L17.0228754,14.5910893 C19.5563095,10.8884679 19.0942349,5.90564471 15.9238038,2.73200923 C12.2809426,-0.910716389 6.37584669,-0.910716389 2.73214589,2.73228911 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -10,6 +10,13 @@
   padding: 7px 15px 6px 34px;
   border-radius: $ui-radius;
   margin-left: 8px !important;
+  text-decoration: none;
+}
+.ui-btn-sm {
+  font-family: 'hk_groteskmedium';
+  padding: 3px 7px;
+  border-radius: $ui-radius;
+  margin-left: 0px !important;
 }
 .ui-btn.btn-primary {
   background-color: $ui_blue;
@@ -22,10 +29,27 @@
 .btn-primary {
   background-color: $ui_blue;
   font-size: $ui_font_normal;
+  text-decoration: none;
 }
 .ui-btn.btn-outline-primary {
   color: $ui_back;
   border-color: $ui_darkgray;
+  text-decoration: none;
+}
+.btn-outline-primary {
+  color: $ui_blue;
+  border-color: $ui_blue;
+  border: 1px solid $ui_blue;
+  text-decoration: none;
+}
+.btn-secondary {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+  text-decoration: none;
+}
+.btn-outline-primary:hover {
+  color: $ui_white;
 }
 .ui-btn.btn-download {
   background-image: image-url('icons/icn-download.svg');
@@ -79,6 +103,7 @@
   border: 1px solid #D9D9D9;
   font-weight: normal;
   color: $ui_back;
+  text-decoration: none;
 }
 
 .btn-blue-alternative {
@@ -87,6 +112,7 @@
   color: $ui_blue;
   border: 1px solid $ui_blue;
   font-family: 'hk_groteskmedium';
+  text-decoration: none;
 }
 
 .btn-white {
@@ -95,6 +121,7 @@
   color: $ui_back;
   border: 1px solid $ui_back;
   font-family: 'hk_groteskmedium';
+  text-decoration: none;
 }
 .btn-gray {
   background-color: $ui_white;
@@ -103,6 +130,7 @@
   border: 1px solid #D9D9D9;
   font-family: 'hk_groteskmedium';
   font-weight: 400;
+  text-decoration: none;
 }
 
 .btn-black {
@@ -111,6 +139,7 @@
   color: $ui_white;
   border: 1px solid $ui_back;
   font-family: 'hk_groteskmedium';
+  text-decoration: none;
 }
 .btn-black-alternative {
   background-color: $ui_white;
@@ -118,9 +147,13 @@
   color: $ui_back;
   border: 1px solid $ui_back;
   font-family: 'hk_groteskmedium';
+  text-decoration: none;
 }
 .btn-pad-lg {
   padding: 6px 30px !important;
+}
+.btn-sm {
+  font-size: 14px !important;
 }
 
 /* ========================================= */
@@ -209,6 +242,7 @@
 .ui-btn-status.btn-secondary {
   background-color: $ui_back;
   border: 1px solid $ui_back;
+  text-decoration: none;
 }
 
 /* ========================================= */

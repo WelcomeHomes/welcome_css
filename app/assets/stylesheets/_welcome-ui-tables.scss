@@ -207,7 +207,7 @@ table .ui-table-row {
   display: block;
 }
 .ui-app-area .ui-menu-dots {
-  width: 40px;
+  width: 10px;
 }
 .ui-app-area table .ui-menu-dots {
   width: 20px;
@@ -304,6 +304,9 @@ table .ui-table-row {
   position: relative;
   margin-bottom: $sm-marginbottom;
   margin-left: 15px;
+}
+.ui-app-area .width-drop-dots {
+  padding-right: 20px;
 }
 .ui-app-area .width-drop {
   padding-right: 50px;
@@ -760,6 +763,14 @@ table .ui-table-row {
 }
 .main-app .ui-app-area .ui-menu-dots .btn {
   text-align: left;
+}
+.main-app .ui-app-area .ui-menu-dots .btn-dot {
+  text-align: center;
+  background-image: image-url('icons/dots.svg');
+  background-repeat: no-repeat;
+  background-size: 6px;
+  height: 25px;
+  width: 10px !important;
 }
 .main-app .ui-app-area .ui-menu-dots .btn:hover {
   background-color: transparent;
@@ -1474,6 +1485,28 @@ table .ui-table-row {
   color: #AFAFAF;
   text-align: center;
   margin: -4px 0 0 -6px;
+}
+.search-area .btn-search {
+  -webkit-border-top-left-radius: 0px;
+  -webkit-border-bottom-left-radius: 0px;
+  -moz-border-radius-topleft: 0px;
+  -moz-border-radius-bottomleft: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+  background-color: #EEF2F7 !important;
+  font-size: 16px;
+  border: 1px solid #D9D9D9;
+  color: #AFAFAF;
+  text-align: center;
+  margin: -4px 0 0 -6px;
+
+  background-image: image-url('icons/icn-search.svg');
+  background-repeat: no-repeat;
+  background-size: 40px;
+  background-position: left 4px top 3px;
 }
 .search-area button img {
   width: -moz-available;
@@ -3627,4 +3660,9 @@ table .ui-table-row {
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 0;
+}
+
+form .form-row {
+  display: flex;
+  flex-wrap: wrap;
 }

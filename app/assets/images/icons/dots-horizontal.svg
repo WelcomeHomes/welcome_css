@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="7px" viewBox="0 0 26 7" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Parcels-Copy" transform="translate(-465.000000, -96.000000)" fill="#000000" fill-rule="nonzero">
+            <g id="Group" transform="translate(477.809984, 99.500000) rotate(-360.000000) translate(-477.809984, -99.500000) translate(465.309984, 96.690016)">
+                <ellipse id="Oval" cx="2.89151738" cy="2.80998377" rx="2.89151738" ry="2.80998377"></ellipse>
+                <ellipse id="Oval" cx="12.7044192" cy="2.80998377" rx="2.89112727" ry="2.80998377"></ellipse>
+                <ellipse id="Oval" cx="22.1088727" cy="2.80998377" rx="2.89112727" ry="2.80998377"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>
