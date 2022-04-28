@@ -2934,22 +2934,27 @@ table .ui-table-row {
 /* =========================== */
 
 .ui-app-area .items-container .table-item .switch,
-.ui-app-area .items-container .switch {
+.ui-app-area .items-container .switch,
+.ui-app-area .switch {
   position: relative;
   display: inline-block;
   width: 40px;
   height: 22px;
   margin-top: -8px;
 }
+.ui-app-area .switch button {
+  border: none;
+}
 .ui-app-area .items-container .table-item .switch input,
-.ui-app-area .items-container .switch input {
+.ui-app-area .items-container .switch input,
+.ui-app-area .switch input {
   opacity: 0;
   width: 0;
   height: 0;
 }
-
 .ui-app-area .items-container .table-item .slider,
-.ui-app-area .items-container .slider {
+.ui-app-area .items-container .slider,
+.ui-app-area .slider {
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -2960,9 +2965,9 @@ table .ui-table-row {
   -webkit-transition: .4s;
   transition: .4s;
 }
-
 .ui-app-area .items-container .table-item .slider:before,
-.ui-app-area .items-container .slider:before {
+.ui-app-area .items-container .slider:before,
+.ui-app-area .slider:before {
   position: absolute;
   content: "";
   height: 15px;
@@ -2975,32 +2980,38 @@ table .ui-table-row {
 }
 
 .ui-app-area .items-container .table-item .slider,
-.ui-app-area .items-container .slider {
+.ui-app-area .items-container .slider,
+.ui-app-area .slider {
   background-color: #5DD687;
 }
 .ui-app-area .items-container .table-item .slider-off,
-.ui-app-area .items-container .slider-off {
+.ui-app-area .items-container .slider-off,
+.ui-app-area .slider-off {
   background-color: #CCC;
 }
 
 .ui-app-area .items-container .table-item input:focus + .slider,
-.ui-app-area .items-container input:focus + .slider {
+.ui-app-area .items-container input:focus + .slider,
+.ui-app-area input:focus + .slider {
   box-shadow: 0 0 1px #5DD687;
 }
 
 .ui-app-area .items-container .table-item input:checked + .slider:before,
-.ui-app-area .items-container input:checked + .slider:before {
+.ui-app-area .items-container input:checked + .slider:before,
+.ui-app-area input:checked + .slider:before {
   -webkit-transform: translateX(15px);
   -ms-transform: translateX(15px);
   transform: translateX(15px);
 }
 
 .ui-app-area .items-container .table-item .slider.round,
-.ui-app-area .items-container .slider.round {
+.ui-app-area .items-container .slider.round,
+.ui-app-area .slider.round {
   border-radius: 34px;
 }
 .ui-app-area .items-container .table-item .slider.round:before,
-.ui-app-area .items-container .slider.round:before {
+.ui-app-area .items-container .slider.round:before,
+.ui-app-area .slider.round:before {
   border-radius: 50%;
 }
 
@@ -3662,7 +3673,12 @@ table .ui-table-row {
   padding-bottom: 0;
 }
 
-form .form-row {
+/* =========================== */
+
+.am-wrapper form .form-row {
   display: flex;
   flex-wrap: wrap;
+}
+.am-wrapper form .form-group {
+  padding-right: 10px;
 }
