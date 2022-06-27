@@ -73,6 +73,7 @@
   border-bottom: 1px solid $ui_middlegray;
   text-align: left;
   padding: 6px 20px 6px 20px;
+  border-color: transparent !important;
 }
 .ui-app-area .dropdown .btn-group .btn:hover {
   color: $ui_white;
