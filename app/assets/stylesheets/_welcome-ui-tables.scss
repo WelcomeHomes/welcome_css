@@ -91,7 +91,8 @@
   margin-top: 140px !important;
 }
 .land-app .form-group .trix-content {
-  height: 140px;
+  height: auto;
+  min-height: 140px;
 }
 
 /* Table Header */
