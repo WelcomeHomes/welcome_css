@@ -206,6 +206,13 @@
   background-position: top 8px left 9px;
   background-color: $ui_white;
 }
+.btn-update {
+  padding: 0 0 0 20px !important;
+  background-image: image-url('icons/icn-update.svg');
+  background-repeat: no-repeat;
+  background-size: 14px;
+  background-position: top 4px left 0px;
+}
 .btn-delete,
 .new-involved-theme .btn.btn-outline-danger,
 .btn-delete.btn.btn-outline-danger {
@@ -389,4 +396,18 @@ input[type="submit"].btn-link:hover,
 input[type="submit"].simple-link:hover {
   background-color: transparent !important;
   border: none !important;
+}
+
+.btn-edit-icn {
+  padding: 0 0 0 20px !important;
+  background-image: image-url('icons/icn-edit-blue.svg');
+  background-repeat: no-repeat;
+  background-size: 13px;
+  background-position: top 6px left 0px;
+  color: #4A8FE7;
+  text-decoration: none;
+}
+.btn-edit-icn:hover {
+  color: #4A8FE7;
+  text-decoration: underline;
 }
