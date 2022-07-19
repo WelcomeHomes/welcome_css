@@ -213,6 +213,16 @@
   background-size: 14px;
   background-position: top 4px left 0px;
 }
+.line-models {
+  padding: 0 0 0 20px !important;
+  background-image: image-url('icons/icn-models.svg');
+  background-repeat: no-repeat;
+  background-size: 14px;
+  background-position: top 3px left 0px;
+  margin-top: 4px;
+  display: block;
+  width: 100%;
+}
 .btn-delete,
 .new-involved-theme .btn.btn-outline-danger,
 .btn-delete.btn.btn-outline-danger {

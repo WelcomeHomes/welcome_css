@@ -28,6 +28,14 @@
   width: 100%;
   padding: 15px 0;
 }
+.land-app .view-header.parcel-header {
+  border: none !important;
+  background-color: $ui_white;
+  margin-bottom: 30px;
+  width: 100%;
+  padding: 20px 10px 20px 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
 .land-app .white-header {
   border-bottom: none;
   background-color: $ui_white;
