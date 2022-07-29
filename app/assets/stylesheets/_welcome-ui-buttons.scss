@@ -421,3 +421,28 @@ input[type="submit"].simple-link:hover {
   color: #4A8FE7;
   text-decoration: underline;
 }
+
+.form-fail {
+  display: inline-block;
+  padding: 6px 16px 6px 38px !important;
+  background-image: image-url('icons/icn-fail.svg');
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: top 10px left 10px;
+  color: $ui_back;
+  text-decoration: none;
+  border: 1px solid #D9D9D9;
+  border-radius: 8px;
+}
+.form-pass {
+  display: inline-block;
+  padding: 6px 16px 6px 38px !important;
+  background-image: image-url('icons/icn-check-green.svg');
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: top 10px left 10px;
+  color: $ui_back;
+  text-decoration: none;
+  border: 1px solid #D9D9D9;
+  border-radius: 8px;
+}
