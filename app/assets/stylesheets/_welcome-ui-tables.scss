@@ -340,7 +340,8 @@ table .ui-table-row {
   top: 0;
 }
 .ui-app-area .ui-col.dots-drop .dropdown {
-  align-self: center;
+  /*align-self: center;*/
+  align-self: baseline;
   margin: 0 auto;
 }
 .ui-app-area .ui-col.dots-drop .dropdown .dropdown-menu {
@@ -397,7 +398,7 @@ table .ui-table-row {
 }
 .parcel-main-info .card .card-header {
   margin-bottom: 0;
-  background-color: transparent;
+  background-color: transprent;
   border-bottom: none;
   padding: 0.75rem 0;
 }
@@ -3731,4 +3732,84 @@ table .ui-table-row {
 
 .code-hide {
   display: none;
+}
+.fade:not(.show) {
+  opacity: 1;
+}
+
+/* =========================== */
+
+.pills-content {
+  padding: 0 !important;
+}
+
+.pills-content .nav-tabs {
+  width: 200px;
+  display: block;
+  float: left;
+  position: relative;
+}
+.pills-content .tab-content.content-lateral {
+  width: calc(100% - 220px);
+  display: block;
+  float: right;
+  position: relative;
+}
+.pills-content .parcel-information-block {
+  display: block;
+  width: 100%;
+  border: 1px solid #D9D9D9;
+  padding: 15px 15px 0 15px;
+  margin-left: 0;
+  margin-right: 0;
+  float: left;
+  position: relative;
+  border-radius: 8px !important;
+}
+.pills-content .tab-content.content-lateral .card-header {
+  background-color: transparent;
+}
+.pills-content .tab-content.content-lateral .card .list-group-item {
+  width: 100%;
+  border-bottom: 1px solid #D0D0D0;
+  padding: 12px 0;
+}
+.pills-content .tab-content.content-lateral .card .list-group-item:last-child {
+  width: 100%;
+  border-bottom: none;
+}
+.pills-content #parcels-prep-requirements .parcel-information-block turbo-frame {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+.pills-content #parcels-prep-requirements .parcel-information-block turbo-frame:last-child {
+  border-bottom: none;
+}
+.pills-content .tab-content.content-lateral .ui-toptable {
+  background-color: transparent !important;
+}
+.pills-content .tab-content.content-lateral [aria-expanded="false"] > .expanded,
+.pills-content .tab-content.content-lateral [aria-expanded="true"] > .collapsed {
+  display: none;
+}
+.pills-content .parcel-information-block.collapse-container {
+  padding: 0 15px;
+}
+.pills-content .collapse-container .collapse-header .card-header {
+  padding: 0.75rem 0;
+  border-bottom: none;
+}
+.pills-content .collapse-container .collapse-header .card-header h4 {
+  font-size: 17px !important;
+  margin-top: 5px !important;
+  font-weight: bold;
+}
+.pills-content .collapse-container .collapse-header .btn-collapse {
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+.pills-content .collapse-container .collapse {
+  margin-bottom: 15px;
 }

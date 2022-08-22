@@ -446,3 +446,29 @@ input[type="submit"].simple-link:hover {
   border: 1px solid #D9D9D9;
   border-radius: 8px;
 }
+.btn-pdf {
+  display: inline-block;
+  padding: 4px 36px 4px 12px !important;
+  background-image: image-url('icons/icn-download-pdf.svg');
+  background-repeat: no-repeat;
+  background-size: 18px;
+  background-position: top 11px right 10px;
+  color: $ui_back;
+  text-decoration: none;
+  border: 1px solid #4A8FE7;
+  border-radius: 8px;
+  margin: 5px 0;
+}
+.icn-expand {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+.icn-expand.collapsed {
+  background-image: image-url('icons/icn-collapse-more.svg');
+  background-repeat: no-repeat;
+}
+.icn-expand.expanded {
+  background-image: image-url('icons/icn-collapse-less.svg');
+  background-repeat: no-repeat;
+}
