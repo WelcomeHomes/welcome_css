@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    welcome_css (0.87)
+    welcome_css (0.88)
       bootstrap (~> 4.6.0, >= 4.6.0)
       rails (>= 6.0.0)
 
@@ -83,7 +83,7 @@ GEM
     concurrent-ruby (1.1.10)
     crass (1.0.6)
     digest (3.1.0)
-    erubi (1.10.0)
+    erubi (1.11.0)
     execjs (2.8.1)
     ffi (1.15.5)
     globalid (1.0.0)
@@ -99,7 +99,7 @@ GEM
     method_source (1.0.0)
     mini_mime (1.1.2)
     mini_portile2 (2.8.0)
-    minitest (5.16.2)
+    minitest (5.16.3)
     net-imap (0.2.3)
       digest
       net-protocol
