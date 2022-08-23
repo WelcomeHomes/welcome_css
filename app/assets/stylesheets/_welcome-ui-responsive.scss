@@ -35,6 +35,14 @@
   }
 }
 
+@media (min-width: 1300px) {
+  .btn-phase-export {
+    position: absolute;
+    top: 0;
+    right: 170px;
+  }
+}
+
 @media (min-width: 993px) {
   .navbar-toggle {
     display: none;
@@ -233,6 +241,11 @@
   .ui-app-area .product-img-choice {
     width: 66px;
     height: 54px;
+  }
+  .btn-phase-export {
+    position: absolute;
+    top: 0;
+    right: 170px;
   }
 }
 
