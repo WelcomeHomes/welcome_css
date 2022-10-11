@@ -1041,6 +1041,11 @@ table .ui-table-row {
 
 /* =========================== */
 
+.land-app-content #parcel_prep_req .ui-toptable::before,
+.land-app-content #parcel_approval_req .ui-toptable::before {
+  display: none;
+}
+
 .main-app .page-aside {
   border-bottom: 1px solid #dee2e6;
   padding: 0 15px 20px 16px;
