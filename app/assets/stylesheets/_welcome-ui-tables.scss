@@ -255,8 +255,9 @@ table .ui-table-row {
 .site-plan .card-body {
   padding: 0;
 }
-.ui-app-area .list-group-item {
-  min-height: 90px;
+.ui-app-area .list-group-item {
+  /*min-height: 90px;*/
+  min-height: auto;
 }
 #ui-tabs .list-group-item {
   padding-left: 15px;
@@ -3760,6 +3761,13 @@ table .ui-table-row {
   display: flex;
   flex-grow: 1;
 }
+.pills-content .no-drop .row.width-drop .dots-drop {
+  display: none;
+}
+.pills-content .no-drop .list-group-item {
+  padding: 0;
+  border: none;
+}
 .pills-content {
   /*display: flex;*/
   flex-grow: 1;
@@ -3771,7 +3779,7 @@ table .ui-table-row {
   width: 200px;
   display: block;
   float: left;
-  position: relative;
+  /*position: relative;*/
   height: 100vh;
 }
 .pills-content .tab-content.content-lateral {
